@@ -10,18 +10,18 @@ import Footer from 'components/Footer';
 const Layout = ({ children, pageName }) => {
   let className = '';
 
-  if ( pageName ) {
+  if (pageName) {
     className = `${className} page-${pageName}`;
   }
 
   return (
     <>
       <Helmet bodyAttributes={{ class: className }}>
-        <title>Gatsby Site</title>
+        <title>Covid-19</title>
       </Helmet>
       <div className="wrapper">
         <Header />
-        <main>{ children }</main>
+        <main>{children}</main>
         <Footer />
       </div>
     </>
