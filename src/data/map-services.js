@@ -11,6 +11,6 @@ export const mapServices = [
     name: 'Mapbox',
     attribution:
       'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    url: `https://api.mapbox.com/styles/v1/roncham/ck8kmbrrh08xt1inyxg6mo8qm?access_token=pk.eyJ1Ijoicm9uY2hhbSIsImEiOiJjanRvbmd2MW0wOXlkNDNtcjMybmdhNWcwIn0.kCMeczfEH5ForJjCSqTRYQ`,
+    url: `https://api.mapbox.com/styles/v1/roncham/ck8kmbrrh08xt1inyxg6mo8qm/tiles/256/{z}/{x}/{y}@2x?access_token=${accessToken}`,
   },
 ];
