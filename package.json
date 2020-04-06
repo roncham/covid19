@@ -4,6 +4,7 @@
   "version": "0.2.2",
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
+    "@popperjs/core": "^2.2.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "chart.js": "^2.9.3",
@@ -14,15 +15,18 @@
     "gatsby-plugin-sass": "^2.1.30",
     "gatsby-source-filesystem": "^2.1.55",
     "gatsby-source-google-spreadsheet": "^2.0.0",
+    "jquery": "^3.4.1",
     "leaflet": "^1.6.0",
     "node-sass": "^4.13.1",
     "path": "^0.12.7",
+    "popper.js": "^1.16.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.0",
-    "react-leaflet": "^2.6.3"
+    "react-leaflet": "^2.6.3",
+    "reactstrap": "^8.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

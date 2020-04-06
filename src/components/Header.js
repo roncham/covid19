@@ -1,39 +1,45 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React, { useState } from 'react';
 
-import Container from 'components/Container';
+//import Container from 'components/Container';
 
-const Header = () => {
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from 'reactstrap';
+
+const Header = (props) => {
+  const [collapsed, setCollapsed] = useState(true);
+  const toggleNavbar = () => setCollapsed(!collapsed);
   return (
-    <header>
-      <Container type="content">
-        <Link className="navbar-brand" to="/">
-          Covid-19 World Map
-        </Link>
-        <ul>
-          <li>
-            <Link className="nav-link" to="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="nav-link" to="/about">
-              Read Me
-            </Link>
-          </li>
-          {/*<li>
-            <Link className="nav-link" to="/us-states">
-              US States
-            </Link>
-          </li>*/}
-          <li>
-            <Link className="nav-link" to="/nevada/">
-              Nevada
-            </Link>
-          </li>
-        </ul>
-      </Container>
-    </header>
+    <div>
+      <Navbar color="light" light expand="lg">
+        <NavbarBrand href="/">Covid-19 World Map</NavbarBrand>
+        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <Collapse isOpen={!collapsed} navbar>
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink href="/">Home</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/about">Read Me</NavLink>
+            </NavItem>
+            {/*<NavItem>
+                    <NavLink href='/us-states'>
+                      US States
+                    </NavLink>
+                </NavItem>*/}
+            <NavItem>
+              <NavLink href="/nevada/">Nevada</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
   );
 };
 

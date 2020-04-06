@@ -60,9 +60,9 @@ const AboutPage = () => {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://github.com/ExpDev07/coronavirus-tracker-api"
+                      href="https://github.com/novelcovid/api"
                     >
-                      coronavirus-tracker-api
+                      NOVELCovid/API
                     </a>
                     <br />
                     <a

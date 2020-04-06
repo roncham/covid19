@@ -1,12 +1,12 @@
 header {
   width: 100%;
-  color: $grey-50;
-  background-color: $grey-900;
+  //color: $grey-50;
+  //background-color: $grey-900;
 
   .container {
     display: flex;
     justify-content: space-between;
-    height: 2.5em;
+    //height: 2.5em;
     line-height: 2.5em;
   }
 
@@ -18,11 +18,12 @@ header {
 
   li {
     display: inline-block;
+    vertical-align: middle;
   }
 
   a {
     display: block;
-    color: $grey-50;
+    color: #444;
     text-decoration: none;
     padding: 0 0.5em;
   }

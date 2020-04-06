@@ -133,9 +133,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-orange">1273499</h2>
-                Todays Cases
-                <h2 className="is-orange">638</h2>
+                <h2 className="is-orange">1,329,305</h2>
+                <span className="is-dark-text-light letter-spacing text-small">
+                  Todays Cases
+                </span>
+                <h2 className="is-orange">56,443</h2>
               </Container>
             </Container>
           </Container>
@@ -149,9 +151,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-red">69451</h2>
-                Todays Deaths
-                <h2 className="is-red">27</h2>
+                <h2 className="is-red">73,831</h2>
+                <span className="is-dark-text-light letter-spacing text-small">
+                  Todays Deaths
+                </span>
+                <h2 className="is-red">4,406</h2>
               </Container>
             </Container>
           </Container>
@@ -165,9 +169,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-green">262351</h2>
-                Active
-                <h2 className="is-green">941697</h2>
+                <h2 className="is-green">277,327</h2>
+                <span className="is-dark-text-light letter-spacing text-small">
+                  Active
+                </span>
+                <h2 className="is-green">978,147</h2>
               </Container>
             </Container>
           </Container>
@@ -176,12 +182,16 @@ const IndexPage = () => {
             <Container className="card grid-card is-card-dark h-100">
               <Container className="card-heading">
                 <Container className="is-dark-text-light letter-spacing text-small">
-                  Affected Countries
+                  Countries
                 </Container>
               </Container>
 
               <Container className="card-value pt-4">
                 <h2>211</h2>
+                <span className="is-dark-text-light letter-spacing text-small">
+                  Reported Tests
+                </span>
+                <h2>9,459,910</h2>
               </Container>
             </Container>
           </Container>

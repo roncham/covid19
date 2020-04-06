@@ -43,6 +43,7 @@ class NevadaPage extends Component {
         '04/02/20',
         '04/03/20',
         '04/04/20',
+        '04/05/20',
       ],
       datasets: [
         {
@@ -80,6 +81,7 @@ class NevadaPage extends Component {
             1514,
             1742,
             1836,
+            1953,
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16', // Line color
@@ -120,6 +122,7 @@ class NevadaPage extends Component {
         '04/02/20',
         '04/03/20',
         '04/04/20',
+        '04/05/20',
       ],
       datasets: [
         {
@@ -156,6 +159,7 @@ class NevadaPage extends Component {
             36,
             43,
             45,
+            46,
             46,
           ],
           backgroundColor: 'maroon',
@@ -196,6 +200,7 @@ class NevadaPage extends Component {
         '04/02/20',
         '04/03/20',
         '04/04/20',
+        '04/05/20',
       ],
       datasets: [
         {
@@ -232,6 +237,7 @@ class NevadaPage extends Component {
             1279,
             1418,
             1519,
+            1608,
           ],
           backgroundColor: '#933A16',
         },
@@ -272,6 +278,7 @@ class NevadaPage extends Component {
         '04/02/20',
         '04/03/20',
         '04/04/20',
+        '04/05/20',
       ],
       datasets: [
         {
@@ -309,6 +316,7 @@ class NevadaPage extends Component {
             39,
             41,
             41,
+            41,
           ],
           backgroundColor: 'maroon',
         },
@@ -316,12 +324,19 @@ class NevadaPage extends Component {
     };
 
     const data5 = {
-      labels: ['Yes', '* Unknown'],
+      labels: ['0-4', '5-17', '18-24', '25-49', '50-64', '65+'],
       datasets: [
         {
-          label: 'Medical Conditions',
-          data: [174, 1345],
-          backgroundColor: ['rgb(54, 162, 235)', 'rgb(255, 205, 86)'],
+          label: 'Age of Cases',
+          data: [4, 20, 93, 650, 470, 371],
+          backgroundColor: [
+            'rgb(54, 162, 235)', //blue
+            'rgb(255, 99, 132)', //salmon
+            'rgb(255, 205, 86)', //yellow
+            'rgb(147, 58, 22)', //rust
+            'rgb(181, 234, 215)', //light green
+            'rgb(179, 153, 212)', //light purple
+          ],
         },
       ],
     };
@@ -331,7 +346,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Sex',
-          data: [736, 754, 29],
+          data: [784, 795, 29],
           backgroundColor: [
             'rgb(54, 162, 235)',
             'rgb(255, 99, 132)',
@@ -429,7 +444,7 @@ class NevadaPage extends Component {
                   <Container className="chart-container large">
                     <Container className="card-heading">
                       <Container className="is-dark-text-light letter-spacing text-small">
-                        Underlying Medical Condition
+                        Age of Cases
                       </Container>
                     </Container>
                     <Container className="card-value pt-4">
@@ -455,8 +470,10 @@ class NevadaPage extends Component {
               </Container>
             </Container>
             <p className="is-dark-text-light">
-              *Information is based on current investigations and may not be
-              complete.
+              <em>
+                *Information is based on current investigations and may not be
+                complete.
+              </em>
             </p>
           </article>
         </Container>
