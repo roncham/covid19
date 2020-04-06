@@ -103,6 +103,8 @@ const IndexPage = () => {
     center: CENTER,
     defaultBaseMap: 'Mapbox',
     zoom: DEFAULT_ZOOM,
+    maxZoom: 8,
+    maxNativeZoom: 7,
     mapEffect,
   };
 

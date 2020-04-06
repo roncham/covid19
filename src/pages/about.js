@@ -49,53 +49,79 @@ const AboutPage = () => {
                     fetch the data at the same time. Countries across the world
                     update their data at different times.
                   </p>
+                  <h3>Best viewed on a tablet or larger!</h3>
                   <h3>We hope you stay healthy during this troubling time!</h3>
                 </div>
                 <hr />
                 <div>
-                  <h2>Sources:</h2>
+                  <h3>Global Sources:</h3>
 
                   <p>
-                    <Link
-                      className="link"
-                      to="https://github.com/ExpDev07/coronavirus-tracker-api"
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/ExpDev07/coronavirus-tracker-api"
                     >
                       coronavirus-tracker-api
-                    </Link>{' '}
-                    via
+                    </a>
                     <br />
-                    <Link
-                      className="link"
-                      to="https://coronavirus-tracker-api.herokuapp.com"
-                    >
-                      coronavirus-tracker-api.herokuapp.com
-                    </Link>
-                    <br />
-                    <Link
-                      className="link"
-                      to="https://github.com/CSSEGISandData/COVID-19"
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/CSSEGISandData/COVID-19"
                     >
                       Worldwide Data repository
-                    </Link>
+                    </a>
                     <br />
-                    <Link
-                      className="link"
-                      to="https://csbs.org/information-covid-19-coronavirus"
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://csbs.org/information-covid-19-coronavirus"
                     >
                       csbs.org/information-covid-19-coronavirus
-                    </Link>
+                    </a>
                   </p>
-
+                </div>
+                <div>
+                  <h3>Nevada Data Sources:</h3>
                   <p>
-                    <h3>Want to build your own map?</h3>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9"
+                    >
+                      Nevada DWWS
+                    </a>
+                    <br />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.southernnevadahealthdistrict.org/coronavirus"
+                    >
+                      SNHD
+                    </a>
+                    <br />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://thenevadaindependent.com/article/coronavirus-live-blog-week-three"
+                    >
+                      The Nevada Independent
+                    </a>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    Want to build your own map?
                     <br />
                     Check out:&nbsp;
-                    <Link
-                      className="link"
-                      to="https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/"
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/"
                     >
                       How to create a Coronavirus Dashboard & Map App
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </Container>
