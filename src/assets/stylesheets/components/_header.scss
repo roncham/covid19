@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  color: $white;
+  color: $grey-50;
   background-color: $grey-900;
 
   .container {
@@ -22,9 +22,13 @@ header {
 
   a {
     display: block;
-    color: lighten($gatsby-purple, 50);
+    color: $grey-50;
     text-decoration: none;
     padding: 0 0.5em;
+  }
+
+  a:hover {
+    color: $grey-500;
   }
 
   p {

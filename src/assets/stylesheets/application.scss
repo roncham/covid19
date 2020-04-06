@@ -1,7 +1,7 @@
-@import "settings/__settings";
-@import "util/__util";
-@import "components/__components";
-@import "pages/__pages";
+@import 'settings/__settings';
+@import 'util/__util';
+@import 'components/__components';
+@import 'pages/__pages';
 
 * {
   box-sizing: border-box;
@@ -11,6 +11,8 @@ body {
   font-family: $font-default;
   padding: 0;
   margin: 0;
+  background: #17202e;
+  color: $grey-50;
 }
 
 .wrapper {
@@ -21,4 +23,32 @@ body {
 
 main {
   padding: 2em 0;
+}
+
+.is-card-dark {
+  padding: 1em;
+  background: #202a3b !important;
+  border-radius: 0.4em;
+  margin-bottom: 1em;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
+}
+
+.is-dark-text-light {
+  color: #8091ab;
+}
+
+.is-red {
+  color: $red;
+}
+
+.is-green {
+  color: $green;
+}
+
+.is-orange {
+  color: $amber-900;
+}
+
+.chartjs-render-monitor {
+  min-height: 300px;
 }

@@ -1,3 +1,4 @@
+//const accessToken = process.env.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS;
 module.exports = {
   plugins: [
     'gatsby-plugin-resolve-src',
@@ -7,9 +8,10 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images`
-      }
+        path: `${__dirname}/src/assets/images`,
+      },
     },
-    'gatsby-plugin-react-leaflet'
-  ]
+    'gatsby-plugin-react-leaflet',
+    // 'gatsby-plugin-offline',
+  ],
 };

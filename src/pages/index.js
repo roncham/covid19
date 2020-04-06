@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Helmet from 'react-helmet';
 import L from 'leaflet';
 import axios from 'axios';
@@ -114,10 +114,76 @@ const IndexPage = () => {
 
       <Map {...mapSettings} />
 
-      <Container type="content" className="text-center home-start">
-        <h2>Covid-19 around the world</h2>
+      {/* content area start */}
+      <Container
+        type="content"
+        className="text-center container-fluid pr-5 pl-5 pt-5 pb-5"
+      >
+        <h2 className="is-dark-text-light">Global Cases</h2>
+        {/* row 1 - global */}
+        <Container className="row">
+          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <Container className="card grid-card is-card-dark h-100">
+              <Container className="card-heading">
+                <Container className="is-dark-text-light letter-spacing text-small">
+                  Total Cases
+                </Container>
+              </Container>
 
-        <p className="note"></p>
+              <Container className="card-value pt-4 text-x-large">
+                <h2 className="is-orange">1273499</h2>
+                Todays Cases
+                <h2 className="is-orange">638</h2>
+              </Container>
+            </Container>
+          </Container>
+
+          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <Container className="card grid-card is-card-dark h-100">
+              <Container className="card-heading">
+                <Container className="is-dark-text-light letter-spacing text-small">
+                  Global Deaths
+                </Container>
+              </Container>
+
+              <Container className="card-value pt-4 text-x-large">
+                <h2 className="is-red">69451</h2>
+                Todays Deaths
+                <h2 className="is-red">27</h2>
+              </Container>
+            </Container>
+          </Container>
+
+          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <Container className="card grid-card is-card-dark h-100">
+              <Container className="card-heading">
+                <Container className="is-dark-text-light letter-spacing text-small">
+                  Recovered
+                </Container>
+              </Container>
+
+              <Container className="card-value pt-4 text-x-large">
+                <h2 className="is-green">262351</h2>
+                Active
+                <h2 className="is-green">941697</h2>
+              </Container>
+            </Container>
+          </Container>
+
+          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <Container className="card grid-card is-card-dark h-100">
+              <Container className="card-heading">
+                <Container className="is-dark-text-light letter-spacing text-small">
+                  Affected Countries
+                </Container>
+              </Container>
+
+              <Container className="card-value pt-4">
+                <h2>211</h2>
+              </Container>
+            </Container>
+          </Container>
+        </Container>
       </Container>
     </Layout>
   );
