@@ -44,6 +44,7 @@ class NevadaPage extends Component {
         '04/03/20',
         '04/04/20',
         '04/05/20',
+        '04/06/20',
       ],
       datasets: [
         {
@@ -82,6 +83,7 @@ class NevadaPage extends Component {
             1742,
             1836,
             1953,
+            2087,
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16', // Line color
@@ -123,6 +125,7 @@ class NevadaPage extends Component {
         '04/03/20',
         '04/04/20',
         '04/05/20',
+        '04/06/20',
       ],
       datasets: [
         {
@@ -161,6 +164,7 @@ class NevadaPage extends Component {
             45,
             46,
             46,
+            58,
           ],
           backgroundColor: 'maroon',
         },
@@ -201,6 +205,7 @@ class NevadaPage extends Component {
         '04/03/20',
         '04/04/20',
         '04/05/20',
+        '04/06/20',
       ],
       datasets: [
         {
@@ -238,6 +243,7 @@ class NevadaPage extends Component {
             1418,
             1519,
             1608,
+            1734,
           ],
           backgroundColor: '#933A16',
         },
@@ -279,6 +285,7 @@ class NevadaPage extends Component {
         '04/03/20',
         '04/04/20',
         '04/05/20',
+        '04/06/20',
       ],
       datasets: [
         {
@@ -317,6 +324,7 @@ class NevadaPage extends Component {
             41,
             41,
             41,
+            54,
           ],
           backgroundColor: 'maroon',
         },
@@ -328,7 +336,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Age of Cases',
-          data: [4, 20, 93, 650, 470, 371],
+          data: [4, 21, 97, 693, 516, 403],
           backgroundColor: [
             'rgb(54, 162, 235)', //blue
             'rgb(255, 99, 132)', //salmon
@@ -346,7 +354,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Sex',
-          data: [784, 795, 29],
+          data: [848, 855, 31],
           backgroundColor: [
             'rgb(54, 162, 235)',
             'rgb(255, 99, 132)',

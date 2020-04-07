@@ -133,11 +133,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-orange">1,343,558</h2>
+                <h2 className="is-orange">1,409,665</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Todays Cases
                 </span>
-                <h2 className="is-orange">70,657</h2>
+                <h2 className="is-orange">63,661</h2>
               </Container>
             </Container>
           </Container>
@@ -151,11 +151,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-red">74,630</h2>
+                <h2 className="is-red">81,010</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Todays Deaths
                 </span>
-                <h2 className="is-red">5,203</h2>
+                <h2 className="is-red">6,356</h2>
               </Container>
             </Container>
           </Container>
@@ -169,11 +169,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-green">278,330</h2>
+                <h2 className="is-green">300,727</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Active
                 </span>
-                <h2 className="is-green">990,598</h2>
+                <h2 className="is-green">1,027,928</h2>
               </Container>
             </Container>
           </Container>
@@ -191,7 +191,7 @@ const IndexPage = () => {
                 <span className="is-dark-text-light letter-spacing text-small">
                   Reported Tests
                 </span>
-                <h2>9,578,681</h2>
+                <h2>10,106,252</h2>
               </Container>
             </Container>
           </Container>
