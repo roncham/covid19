@@ -47,7 +47,7 @@ class NevadaPage extends Component {
       ],
       datasets: [
         {
-          label: 'NV Cases',
+          label: 'Nevada Cases',
           data: [
             1,
             3,
@@ -126,7 +126,7 @@ class NevadaPage extends Component {
       ],
       datasets: [
         {
-          label: 'NV Deaths',
+          label: 'Nevada Deaths',
           data: [
             0,
             0,
@@ -204,7 +204,7 @@ class NevadaPage extends Component {
       ],
       datasets: [
         {
-          label: 'Clark Co. Cases',
+          label: 'Clark County Cases',
           data: [
             1,
             1,
