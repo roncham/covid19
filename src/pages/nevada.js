@@ -397,7 +397,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Nevada Cases - 2087
+                      Nevada Cases - 2246
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -412,7 +412,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Nevada Deaths - 58
+                      Nevada Deaths - 82
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -429,7 +429,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Clark County Cases - 1734
+                      Clark County Cases - 1878
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -444,7 +444,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Clark County Deaths - 54
+                      Clark County Deaths - 65
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -489,6 +489,9 @@ class NevadaPage extends Component {
               <em>
                 *Information is based on current investigations and may not be
                 complete.
+                <br />
+                Due to limited weekend reporting counts may be artificially low
+                Saturday - Monday.
               </em>
             </p>
           </article>
