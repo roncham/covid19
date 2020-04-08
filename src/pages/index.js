@@ -92,6 +92,8 @@ const IndexPage = () => {
             html,
           }),
           riseOnHover: true,
+          clickable: true, //added
+          draggable: true, //added
         });
       },
     });
@@ -133,7 +135,7 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-orange">1,409,665</h2>
+                <h2 className="is-orange">1,431,706</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Todays Cases
                 </span>
@@ -151,7 +153,7 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-red">81,010</h2>
+                <h2 className="is-red">82,080</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Todays Deaths
                 </span>
@@ -169,11 +171,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-green">300,727</h2>
+                <h2 className="is-green">302,150</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Active
                 </span>
-                <h2 className="is-green">1,027,928</h2>
+                <h2 className="is-green">1,047,476</h2>
               </Container>
             </Container>
           </Container>
@@ -191,7 +193,7 @@ const IndexPage = () => {
                 <span className="is-dark-text-light letter-spacing text-small">
                   Reported Tests
                 </span>
-                <h2>10,106,252</h2>
+                <h3>10,246,651</h3>
               </Container>
             </Container>
           </Container>

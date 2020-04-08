@@ -13,10 +13,7 @@ const AboutPage = () => {
       </Helmet>
 
       {/* content area start */}
-      <Container
-        type="content"
-        className="text-center container-fluid pr-5 pl-5 pt-5 pb-5"
-      >
+      <Container type="content" className="container-fluid pr-5 pl-5 pt-5 pb-5">
         <h2 className="is-dark-text-light">About</h2>
 
         <Container className="row">
@@ -42,12 +39,14 @@ const AboutPage = () => {
                     API's to fetch the data dynamically.
                   </p>
                   <p>
-                    Note: The Nevada page data is from yesterday. The Nevada
-                    Health district updates their data the next morning for the
-                    day before. You may have noticed different results from the
-                    many different apps online. This is because they don't all
-                    fetch the data at the same time. Countries across the world
-                    update their data at different times.
+                    <em>
+                      Note: The Nevada page data is from yesterday. The Nevada
+                      Health district updates their data the next morning for
+                      the day before. You may have noticed different results
+                      from the many different apps online. This is because they
+                      don't all fetch the data at the same time. Countries
+                      across the world update their data at different times.
+                    </em>
                   </p>
                   <h3>Best viewed on a tablet or larger!</h3>
                   <h3>We hope you stay healthy during this troubling time!</h3>

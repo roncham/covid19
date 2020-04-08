@@ -389,7 +389,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Nevada Cases
+                      Nevada Cases - 2087
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -404,7 +404,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Nevada Deaths
+                      Nevada Deaths - 58
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -421,7 +421,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Clark County Cases
+                      Clark County Cases - 1734
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -436,7 +436,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Clark County Deaths
+                      Clark County Deaths - 54
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
