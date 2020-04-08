@@ -92,8 +92,7 @@ const IndexPage = () => {
             html,
           }),
           riseOnHover: true,
-          clickable: true, //added
-          draggable: true, //added
+          clickable: true,
         });
       },
     });
