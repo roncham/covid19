@@ -17,7 +17,7 @@ const AboutPage = () => {
         <h2 className="is-dark-text-light">About</h2>
 
         <Container className="row">
-          <Container className="col-lg-10 offset-1 is-light-text mb-4">
+          <Container className="col-lg-12 is-light-text mb-4">
             <Container className="card grid-card is-card-dark">
               <Container className="card-heading">
                 <Container className="is-dark-text-light letter-spacing text-small">
@@ -106,20 +106,6 @@ const AboutPage = () => {
                       href="https://thenevadaindependent.com/article/coronavirus-live-blog-week-three"
                     >
                       The Nevada Independent
-                    </a>
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    Want to build your own map?
-                    <br />
-                    Check out:&nbsp;
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/"
-                    >
-                      How to create a Coronavirus Dashboard & Map App
                     </a>
                   </p>
                 </div>

@@ -45,6 +45,7 @@ class NevadaPage extends Component {
         '04/04/20',
         '04/05/20',
         '04/06/20',
+        '04/07/20'
       ],
       datasets: [
         {
@@ -84,11 +85,12 @@ class NevadaPage extends Component {
             1836,
             1953,
             2087,
+            2246
           ],
           fill: false, // Don't fill area under the line
-          backgroundColor: '#933A16', // Line color
-        },
-      ],
+          backgroundColor: '#933A16' // Line color
+        }
+      ]
     };
     const data2 = {
       labels: [
@@ -126,6 +128,7 @@ class NevadaPage extends Component {
         '04/04/20',
         '04/05/20',
         '04/06/20',
+        '04/07/20'
       ],
       datasets: [
         {
@@ -165,10 +168,11 @@ class NevadaPage extends Component {
             46,
             46,
             58,
+            82
           ],
-          backgroundColor: 'maroon',
-        },
-      ],
+          backgroundColor: 'maroon'
+        }
+      ]
     };
 
     const data3 = {
@@ -206,6 +210,7 @@ class NevadaPage extends Component {
         '04/04/20',
         '04/05/20',
         '04/06/20',
+        '04/07/20'
       ],
       datasets: [
         {
@@ -244,10 +249,11 @@ class NevadaPage extends Component {
             1519,
             1608,
             1734,
+            1878
           ],
-          backgroundColor: '#933A16',
-        },
-      ],
+          backgroundColor: '#933A16'
+        }
+      ]
     };
 
     const data4 = {
@@ -286,6 +292,7 @@ class NevadaPage extends Component {
         '04/04/20',
         '04/05/20',
         '04/06/20',
+        '04/07/20'
       ],
       datasets: [
         {
@@ -325,10 +332,11 @@ class NevadaPage extends Component {
             41,
             41,
             54,
+            65
           ],
-          backgroundColor: 'maroon',
-        },
-      ],
+          backgroundColor: 'maroon'
+        }
+      ]
     };
 
     const data5 = {
@@ -336,17 +344,17 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Age of Cases',
-          data: [4, 21, 97, 693, 516, 403],
+          data: [4, 22, 99, 759, 559, 435],
           backgroundColor: [
             'rgb(54, 162, 235)', //blue
             'rgb(255, 99, 132)', //salmon
             'rgb(255, 205, 86)', //yellow
             'rgb(147, 58, 22)', //rust
             'rgb(181, 234, 215)', //light green
-            'rgb(179, 153, 212)', //light purple
-          ],
-        },
-      ],
+            'rgb(179, 153, 212)' //light purple
+          ]
+        }
+      ]
     };
 
     const data6 = {
@@ -354,14 +362,14 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Sex',
-          data: [848, 855, 31],
+          data: [923, 926, 29],
           backgroundColor: [
             'rgb(54, 162, 235)',
             'rgb(255, 99, 132)',
-            'rgb(255, 205, 86)',
-          ],
-        },
-      ],
+            'rgb(255, 205, 86)'
+          ]
+        }
+      ]
     };
 
     return (

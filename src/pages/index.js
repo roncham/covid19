@@ -9,7 +9,7 @@ import Map from 'components/Map';
 
 const LOCATION = {
   lat: 0,
-  lng: 0,
+  lng: 0
 };
 const CENTER = [LOCATION.lat, LOCATION.lng];
 const DEFAULT_ZOOM = 2;
@@ -43,14 +43,14 @@ const IndexPage = () => {
         return {
           type: 'Feature',
           properties: {
-            ...country,
+            ...country
           },
           geometry: {
             type: 'Point',
-            coordinates: [lng, lat],
-          },
+            coordinates: [lng, lat]
+          }
         };
-      }),
+      })
     };
 
     const geoJsonLayers = new L.GeoJSON(geoJson, {
@@ -89,12 +89,12 @@ const IndexPage = () => {
         return L.marker(latlng, {
           icon: L.divIcon({
             className: 'icon',
-            html,
+            html
           }),
           riseOnHover: true,
-          clickable: true,
+          clickable: true
         });
-      },
+      }
     });
 
     geoJsonLayers.addTo(map);
@@ -106,7 +106,7 @@ const IndexPage = () => {
     zoom: DEFAULT_ZOOM,
     maxZoom: 8,
     maxNativeZoom: 7,
-    mapEffect,
+    mapEffect
   };
 
   return (
@@ -134,11 +134,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-orange">1,431,706</h2>
+                <h2 className="is-orange">1,491,352</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Todays Cases
                 </span>
-                <h2 className="is-orange">63,661</h2>
+                <h2 className="is-orange">60,433</h2>
               </Container>
             </Container>
           </Container>
@@ -152,11 +152,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-red">82,080</h2>
+                <h2 className="is-red">87,435</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Todays Deaths
                 </span>
-                <h2 className="is-red">6,356</h2>
+                <h2 className="is-red">5,401</h2>
               </Container>
             </Container>
           </Container>
@@ -170,11 +170,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-green">302,150</h2>
+                <h2 className="is-green">319,031</h2>
                 <span className="is-dark-text-light letter-spacing text-small">
                   Active
                 </span>
-                <h2 className="is-green">1,047,476</h2>
+                <h2 className="is-green">1,084,886</h2>
               </Container>
             </Container>
           </Container>
@@ -192,7 +192,7 @@ const IndexPage = () => {
                 <span className="is-dark-text-light letter-spacing text-small">
                   Reported Tests
                 </span>
-                <h3>10,246,651</h3>
+                <h3>11,073,491</h3>
               </Container>
             </Container>
           </Container>
