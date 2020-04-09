@@ -171,8 +171,8 @@ class NevadaPage extends Component {
             46,
             46,
             58,
-            81,
-            87
+            74,
+            80
           ],
           backgroundColor: 'maroon'
         }
@@ -420,7 +420,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Nevada Deaths - 87
+                      Nevada Deaths - 80
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
