@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Helmet from 'react-helmet';
 import L from 'leaflet';
 import axios from 'axios';
@@ -134,11 +134,7 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-orange">1,491,352</h2>
-                <span className="is-dark-text-light letter-spacing text-small">
-                  Todays Cases
-                </span>
-                <h2 className="is-orange">60,433</h2>
+                <h2 className="is-orange">1,565,280</h2>
               </Container>
             </Container>
           </Container>
@@ -152,11 +148,7 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-red">87,435</h2>
-                <span className="is-dark-text-light letter-spacing text-small">
-                  Todays Deaths
-                </span>
-                <h2 className="is-red">5,401</h2>
+                <h2 className="is-red">91,910</h2>
               </Container>
             </Container>
           </Container>
@@ -170,11 +162,11 @@ const IndexPage = () => {
               </Container>
 
               <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-green">319,031</h2>
-                <span className="is-dark-text-light letter-spacing text-small">
+                <h2 className="is-green">345,856</h2>
+                {/*<span className="is-dark-text-light letter-spacing text-small">
                   Active
                 </span>
-                <h2 className="is-green">1,084,886</h2>
+                <h2 className="is-green">1,084,886</h2> */}
               </Container>
             </Container>
           </Container>
@@ -189,10 +181,6 @@ const IndexPage = () => {
 
               <Container className="card-value pt-4">
                 <h2>211</h2>
-                <span className="is-dark-text-light letter-spacing text-small">
-                  Reported Tests
-                </span>
-                <h3>11,073,491</h3>
               </Container>
             </Container>
           </Container>

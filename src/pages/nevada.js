@@ -45,7 +45,8 @@ class NevadaPage extends Component {
         '04/04/20',
         '04/05/20',
         '04/06/20',
-        '04/07/20'
+        '04/07/20',
+        '04/08/20'
       ],
       datasets: [
         {
@@ -85,7 +86,8 @@ class NevadaPage extends Component {
             1836,
             1953,
             2087,
-            2246
+            2246,
+            2456
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16' // Line color
@@ -128,7 +130,8 @@ class NevadaPage extends Component {
         '04/04/20',
         '04/05/20',
         '04/06/20',
-        '04/07/20'
+        '04/07/20',
+        '04/08/20'
       ],
       datasets: [
         {
@@ -168,7 +171,8 @@ class NevadaPage extends Component {
             46,
             46,
             58,
-            82
+            81,
+            87
           ],
           backgroundColor: 'maroon'
         }
@@ -210,7 +214,8 @@ class NevadaPage extends Component {
         '04/04/20',
         '04/05/20',
         '04/06/20',
-        '04/07/20'
+        '04/07/20',
+        '04/08/20'
       ],
       datasets: [
         {
@@ -249,7 +254,8 @@ class NevadaPage extends Component {
             1519,
             1608,
             1734,
-            1878
+            1878,
+            2009
           ],
           backgroundColor: '#933A16'
         }
@@ -292,7 +298,8 @@ class NevadaPage extends Component {
         '04/04/20',
         '04/05/20',
         '04/06/20',
-        '04/07/20'
+        '04/07/20',
+        '04/08/20'
       ],
       datasets: [
         {
@@ -332,7 +339,8 @@ class NevadaPage extends Component {
             41,
             41,
             54,
-            65
+            65,
+            71
           ],
           backgroundColor: 'maroon'
         }
@@ -344,7 +352,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Age of Cases',
-          data: [4, 22, 99, 759, 559, 435],
+          data: [4, 22, 107, 815, 598, 463],
           backgroundColor: [
             'rgb(54, 162, 235)', //blue
             'rgb(255, 99, 132)', //salmon
@@ -362,7 +370,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Sex',
-          data: [923, 926, 29],
+          data: [981, 998, 30],
           backgroundColor: [
             'rgb(54, 162, 235)',
             'rgb(255, 99, 132)',
@@ -397,7 +405,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Nevada Cases - 2246
+                      Nevada Cases - 2456
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -412,7 +420,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Nevada Deaths - 82
+                      Nevada Deaths - 87
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -429,7 +437,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Clark County Cases - 1878
+                      Clark County Cases - 2009
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
@@ -444,7 +452,7 @@ class NevadaPage extends Component {
                 <Container className="card grid-card is-card-dark">
                   <Container className="card-heading">
                     <Container className="is-dark-text-light letter-spacing text-small">
-                      Clark County Deaths - 65
+                      Clark County Deaths - 71
                     </Container>
                   </Container>
                   <Container className="card-value pt-4">
