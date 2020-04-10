@@ -9,10 +9,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  NavLink
 } from 'reactstrap';
 
-const Header = (props) => {
+const Header = props => {
   const [collapsed, setCollapsed] = useState(true);
   const toggleNavbar = () => setCollapsed(!collapsed);
   return (
@@ -28,11 +28,9 @@ const Header = (props) => {
             <NavItem>
               <NavLink href="/about">About</NavLink>
             </NavItem>
-            {/*<NavItem>
-                    <NavLink href='/us-states'>
-                      US States
-                    </NavLink>
-                </NavItem>*/}
+            <NavItem>
+              <NavLink href="/us-states">US States</NavLink>
+            </NavItem>
             <NavItem>
               <NavLink href="/nevada/">Nevada</NavLink>
             </NavItem>

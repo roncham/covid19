@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Link } from 'gatsby';
 
 import Layout from 'components/Layout';
 import Container from 'components/Container';
@@ -58,7 +57,7 @@ const AboutPage = () => {
                   <p>
                     <a
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       href="https://github.com/novelcovid/api"
                     >
                       NOVELCovid/API
@@ -66,7 +65,7 @@ const AboutPage = () => {
                     <br />
                     <a
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       href="https://github.com/CSSEGISandData/COVID-19"
                     >
                       Worldwide Data repository
@@ -74,7 +73,7 @@ const AboutPage = () => {
                     <br />
                     <a
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       href="https://csbs.org/information-covid-19-coronavirus"
                     >
                       csbs.org/information-covid-19-coronavirus
@@ -86,7 +85,7 @@ const AboutPage = () => {
                   <p>
                     <a
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       href="https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9"
                     >
                       Nevada DWWS
@@ -94,7 +93,7 @@ const AboutPage = () => {
                     <br />
                     <a
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       href="https://www.southernnevadahealthdistrict.org/coronavirus"
                     >
                       SNHD
@@ -102,7 +101,7 @@ const AboutPage = () => {
                     <br />
                     <a
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       href="https://thenevadaindependent.com/article/coronavirus-live-blog-week-three"
                     >
                       The Nevada Independent
