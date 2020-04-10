@@ -125,63 +125,63 @@ const IndexPage = () => {
       >
         <h2 className="is-dark-text-light">Global Cases</h2>
         {/* row 1 - global */}
-        <Container className="row">
-          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <Container className="card grid-card is-card-dark h-100">
-              <Container className="card-heading">
-                <Container className="is-dark-text-light letter-spacing text-small">
+        <div className="row">
+          <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <div className="card grid-card is-card-dark h-100">
+              <div className="card-heading">
+                <div className="is-dark-text-light letter-spacing text-small">
                   Total Cases
-                </Container>
-              </Container>
+                </div>
+              </div>
 
-              <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-orange">1,666,891</h2>
-              </Container>
-            </Container>
-          </Container>
+              <div className="card-value pt-4 text-x-large">
+                <h2 className="is-orange">1,696,244</h2>
+              </div>
+            </div>
+          </div>
 
-          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <Container className="card grid-card is-card-dark h-100">
-              <Container className="card-heading">
-                <Container className="is-dark-text-light letter-spacing text-small">
+          <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <div className="card grid-card is-card-dark h-100">
+              <div className="card-heading">
+                <div className="is-dark-text-light letter-spacing text-small">
                   Global Deaths
-                </Container>
-              </Container>
+                </div>
+              </div>
 
-              <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-red">100,450</h2>
-              </Container>
-            </Container>
-          </Container>
+              <div className="card-value pt-4 text-x-large">
+                <h2 className="is-red">102,594</h2>
+              </div>
+            </div>
+          </div>
 
-          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <Container className="card grid-card is-card-dark h-100">
-              <Container className="card-heading">
-                <Container className="is-dark-text-light letter-spacing text-small">
+          <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <div className="card grid-card is-card-dark h-100">
+              <div className="card-heading">
+                <div className="is-dark-text-light letter-spacing text-small">
                   Recovered
-                </Container>
-              </Container>
+                </div>
+              </div>
 
-              <Container className="card-value pt-4 text-x-large">
-                <h2 className="is-green">369,964</h2>
-              </Container>
-            </Container>
-          </Container>
+              <div className="card-value pt-4 text-x-large">
+                <h2 className="is-green">375,958</h2>
+              </div>
+            </div>
+          </div>
 
-          <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <Container className="card grid-card is-card-dark h-100">
-              <Container className="card-heading">
-                <Container className="is-dark-text-light letter-spacing text-small">
+          <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+            <div className="card grid-card is-card-dark h-100">
+              <div className="card-heading">
+                <div className="is-dark-text-light letter-spacing text-small">
                   Countries
-                </Container>
-              </Container>
+                </div>
+              </div>
 
-              <Container className="card-value pt-4">
+              <div className="card-value pt-4">
                 <h2>212</h2>
-              </Container>
-            </Container>
-          </Container>
-        </Container>
+              </div>
+            </div>
+          </div>
+        </div>
       </Container>
     </Layout>
   );

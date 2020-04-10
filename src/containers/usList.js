@@ -1,7 +1,6 @@
 import React from 'react';
 
 import axiosbase from '../utils/axiobase';
-import Container from 'components/Container';
 
 class StatesList extends React.Component {
   state = {

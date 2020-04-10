@@ -1,7 +1,6 @@
 import React from 'react';
 
 import axiosbase from '../utils/axiobase';
-import Container from 'components/Container';
 
 class GlobalList extends React.Component {
   state = {
@@ -24,67 +23,67 @@ class GlobalList extends React.Component {
     return (
       <>
         {this.state.glData.map(glData => (
-          <Container className="row">
-            <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-              <Container className="card grid-card is-card-dark h-100">
-                <Container className="card-heading">
-                  <Container className="is-dark-text-light letter-spacing text-small">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+              <div className="card grid-card is-card-dark h-100">
+                <div className="card-heading">
+                  <div className="is-dark-text-light letter-spacing text-small">
                     Total Cases
-                  </Container>
-                </Container>
+                  </div>
+                </div>
 
-                <Container className="card-value pt-4 text-x-large">
+                <div className="card-value pt-4 text-x-large">
                   <h2 className="is-orange">{glData.cases}</h2>
-                </Container>
-              </Container>
-            </Container>
+                </div>
+              </div>
+            </div>
 
-            <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-              <Container className="card grid-card is-card-dark h-100">
-                <Container className="card-heading">
-                  <Container className="is-dark-text-light letter-spacing text-small">
+            <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+              <div className="card grid-card is-card-dark h-100">
+                <div className="card-heading">
+                  <div className="is-dark-text-light letter-spacing text-small">
                     Global Deaths
-                  </Container>
-                </Container>
+                  </div>
+                </div>
 
-                <Container className="card-value pt-4 text-x-large">
+                <div className="card-value pt-4 text-x-large">
                   <h2 className="is-red">{glData.deaths}</h2>
-                </Container>
-              </Container>
-            </Container>
+                </div>
+              </div>
+            </div>
 
-            <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-              <Container className="card grid-card is-card-dark h-100">
-                <Container className="card-heading">
-                  <Container className="is-dark-text-light letter-spacing text-small">
+            <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+              <div className="card grid-card is-card-dark h-100">
+                <div className="card-heading">
+                  <div className="is-dark-text-light letter-spacing text-small">
                     Recovered
-                  </Container>
-                </Container>
+                  </div>
+                </div>
 
-                <Container className="card-value pt-4 text-x-large">
+                <div className="card-value pt-4 text-x-large">
                   <h2 className="is-green">{glData.recovered}</h2>
-                </Container>
-              </Container>
-            </Container>
+                </div>
+              </div>
+            </div>
 
-            <Container className="col-lg-3 col-sm-6 is-light-text mb-4">
-              <Container className="card grid-card is-card-dark h-100">
-                <Container className="card-heading">
-                  <Container className="is-dark-text-light letter-spacing text-small">
+            <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+              <div className="card grid-card is-card-dark h-100">
+                <div className="card-heading">
+                  <div className="is-dark-text-light letter-spacing text-small">
                     Countries
-                  </Container>
-                </Container>
+                  </div>
+                </div>
 
-                <Container className="card-value pt-4">
+                <div className="card-value pt-4">
                   <h2>{glData.affectedCountries}</h2>
-                </Container>
-              </Container>
-            </Container>
-          </Container>
+                </div>
+              </div>
+            </div>
+          </div>
         ))}
       </>
     ); // return
   } // render
-}
+} // main
 
 export default GlobalList;

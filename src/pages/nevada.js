@@ -408,99 +408,99 @@ class NevadaPage extends Component {
               Hover over colored sections to see numbers.
             </p>
 
-            <Container className="row">
-              <Container className="col-lg-12 is-light-text mb-4">
-                <Container className="card grid-card is-card-dark">
-                  <Container className="card-heading">
-                    <Container className="is-dark-text-light letter-spacing text-small">
+            <div className="row">
+              <div className="col-lg-12 is-light-text mb-4">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
                       Nevada Cases - 2584
-                    </Container>
-                  </Container>
-                  <Container className="card-value pt-4">
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
                     <Bar data={data} />
-                  </Container>
-                </Container>
-              </Container>
-            </Container>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <Container className="row">
-              <Container className="col-lg-12 is-light-text mb-4">
-                <Container className="card grid-card is-card-dark">
-                  <Container className="card-heading">
-                    <Container className="is-dark-text-light letter-spacing text-small">
+            <div className="row">
+              <div className="col-lg-12 is-light-text mb-4">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
                       Nevada Deaths - 86
-                    </Container>
-                  </Container>
-                  <Container className="card-value pt-4">
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
                     <Bar data={data2} />
-                  </Container>
-                </Container>
-              </Container>
-            </Container>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <h2 className="is-dark-text-light">Clark County NV</h2>
 
-            <Container className="row">
-              <Container className="col-lg-12 is-light-text mb-4">
-                <Container className="card grid-card is-card-dark">
-                  <Container className="card-heading">
-                    <Container className="is-dark-text-light letter-spacing text-small">
+            <div className="row">
+              <div className="col-lg-12 is-light-text mb-4">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
                       Clark County Cases - 2144
-                    </Container>
-                  </Container>
-                  <Container className="card-value pt-4">
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
                     <Bar data={data3} />
-                  </Container>
-                </Container>
-              </Container>
-            </Container>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <Container className="row">
-              <Container className="col-lg-12 is-light-text mb-4">
-                <Container className="card grid-card is-card-dark">
-                  <Container className="card-heading">
-                    <Container className="is-dark-text-light letter-spacing text-small">
+            <div className="row">
+              <div className="col-lg-12 is-light-text mb-4">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
                       Clark County Deaths - 75
-                    </Container>
-                  </Container>
-                  <Container className="card-value pt-4">
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
                     <Bar data={data4} />
-                  </Container>
-                </Container>
-              </Container>
-            </Container>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <Container className="row">
-              <Container className="col-md-6 mb-4">
-                <Container className="card is-card-dark chart-card">
-                  <Container className="chart-container large">
-                    <Container className="card-heading">
-                      <Container className="is-dark-text-light letter-spacing text-small">
+            <div className="row">
+              <div className="col-md-6 mb-4">
+                <div className="card is-card-dark chart-card">
+                  <div className="chart-container large">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
                         Age of Cases
-                      </Container>
-                    </Container>
-                    <Container className="card-value pt-4">
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
                       <Doughnut data={data5} />
-                    </Container>
-                  </Container>
-                </Container>
-              </Container>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-              <Container className="col-md-6 mb-4">
-                <Container className="card is-card-dark chart-card">
-                  <Container className="chart-container large">
-                    <Container className="card-heading">
-                      <Container className="is-dark-text-light letter-spacing text-small">
+              <div className="col-md-6 mb-4">
+                <div className="card is-card-dark chart-card">
+                  <div className="chart-container large">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
                         Gender of Cases
-                      </Container>
-                    </Container>
-                    <Container className="card-value pt-4">
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
                       <Doughnut data={data6} />
-                    </Container>
-                  </Container>
-                </Container>
-              </Container>
-            </Container>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <p className="is-dark-text-light">
               <em>
                 *Information is based on current investigations and may not be
