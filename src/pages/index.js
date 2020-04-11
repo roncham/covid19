@@ -135,7 +135,7 @@ const IndexPage = () => {
               </div>
 
               <div className="card-value pt-4 text-x-large">
-                <h2 className="is-orange">1,696,244</h2>
+                <h2 className="is-orange">1,762,703</h2>
               </div>
             </div>
           </div>
@@ -149,7 +149,7 @@ const IndexPage = () => {
               </div>
 
               <div className="card-value pt-4 text-x-large">
-                <h2 className="is-red">102,594</h2>
+                <h2 className="is-red">107,724</h2>
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@ const IndexPage = () => {
               </div>
 
               <div className="card-value pt-4 text-x-large">
-                <h2 className="is-green">375,958</h2>
+                <h2 className="is-green">395,667</h2>
               </div>
             </div>
           </div>
