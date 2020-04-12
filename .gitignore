@@ -57,6 +57,7 @@ typings/
 # gatsby files
 .cache/
 public
+reduxcached3hFTG/
 
 # Mac files
 .DS_Store
