@@ -48,7 +48,7 @@ class NevadaPage extends Component {
         '04/07/20',
         '04/08/20',
         '04/09/20',
-        '04/10/20',
+        '04/10/20'
       ],
       datasets: [
         {
@@ -137,7 +137,7 @@ class NevadaPage extends Component {
         '04/07/20',
         '04/08/20',
         '04/09/20',
-        '04/10/20',
+        '04/10/20'
       ],
       datasets: [
         {
@@ -225,7 +225,7 @@ class NevadaPage extends Component {
         '04/07/20',
         '04/08/20',
         '04/09/20',
-        '04/10/20',
+        '04/10/20'
       ],
       datasets: [
         {
@@ -313,7 +313,7 @@ class NevadaPage extends Component {
         '04/07/20',
         '04/08/20',
         '04/09/20',
-        '04/10/20',
+        '04/10/20'
       ],
       datasets: [
         {
@@ -408,12 +408,12 @@ class NevadaPage extends Component {
           className="text-center container-fluid pr-5 pl-5 pt-5 pb-5"
         >
           <article className="canvas-container">
-            <h2 className="">Nevada</h2>
+            <h2 className="is-dark-text-light">Nevada</h2>
             <h5 className="is-dark-text-light">
-              NOTE: Nevada Data Is One Day Old
+              <em>NOTE: Nevada Data Is One Day Old</em>
             </h5>
             <p className="is-dark-text-light">
-              Hover over colored sections to see numbers.
+              <em>Hover over colored sections to see numbers.</em>
             </p>
 
             <div className="row">
@@ -421,7 +421,7 @@ class NevadaPage extends Component {
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
-                      Nevada Cases - 2700
+                      Nevada Cases
                     </div>
                   </div>
                   <div className="card-value pt-4">
@@ -432,15 +432,39 @@ class NevadaPage extends Component {
             </div>
 
             <div className="row">
-              <div className="col-lg-12 is-light-text mb-4">
+              <div className="col-8 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
-                      Nevada Deaths - 102
+                      Nevada Deaths
                     </div>
                   </div>
                   <div className="card-value pt-4">
                     <Bar data={data2} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Nevada Cases
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <p className="is-dark-text-light">Total</p>
+                    <h1>2700</h1>
+                  </div>
+                </div>
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Nevada Deaths
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <p className="is-dark-text-light">Total</p>
+                    <h1>102</h1>
                   </div>
                 </div>
               </div>
@@ -453,7 +477,7 @@ class NevadaPage extends Component {
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
-                      Clark County Cases - 2258
+                      Clark County Cases
                     </div>
                   </div>
                   <div className="card-value pt-4">
@@ -464,15 +488,39 @@ class NevadaPage extends Component {
             </div>
 
             <div className="row">
-              <div className="col-lg-12 is-light-text mb-4">
+              <div className="col-lg-8 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
-                      Clark County Deaths - 96
+                      Clark County Deaths
                     </div>
                   </div>
                   <div className="card-value pt-4">
                     <Bar data={data4} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Clark County Cases
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <p className="is-dark-text-light">Total</p>
+                    <h1>2258</h1>
+                  </div>
+                </div>
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Clark County Deaths
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <p className="is-dark-text-light">Total</p>
+                    <h1>96</h1>
                   </div>
                 </div>
               </div>
@@ -484,11 +532,11 @@ class NevadaPage extends Component {
                   <div className="chart-container large">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
-                        Age of Cases
+                        Clark County Age of Cases
                       </div>
                     </div>
                     <div className="card-value pt-4">
-                      <Doughnut data={data5} />
+                      <Bar data={data5} />
                     </div>
                   </div>
                 </div>
@@ -499,7 +547,7 @@ class NevadaPage extends Component {
                   <div className="chart-container large">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
-                        Gender of Cases
+                        Clark County Gender of Cases
                       </div>
                     </div>
                     <div className="card-value pt-4">
