@@ -6,8 +6,8 @@ import axios from 'axios';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Map from 'components/Map';
-import GlobalList from 'containers/GlobalList';
-import USAList from 'containers/USAList';
+import GlobalList from 'components/GlobalList';
+import USAList from 'components/usaList';
 
 const LOCATION = {
   lat: 0,

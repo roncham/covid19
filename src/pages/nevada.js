@@ -500,7 +500,7 @@ class NevadaPage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-4 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">

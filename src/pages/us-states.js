@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 import Layout from 'components/Layout';
 import Container from 'components/Container';
-import StatesList from '../containers/usList';
+import StatesList from 'components/usList';
 
 const USStatesPage = () => {
   return (
