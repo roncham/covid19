@@ -15,7 +15,7 @@ const USStatesPage = () => {
         <h2 className="is-dark-text-light">US States</h2>
 
         <Container className="is-light-text mb-4">
-          <table class="table table-dark table-striped table-fixed">
+          <table className="table table-dark table-striped table-fixed">
             <thead>
               <tr>
                 <th scope="col">State</th>

@@ -23,7 +23,7 @@ class StatesList extends React.Component {
     return (
       <>
         {this.state.usData.map(usData => (
-          <tr>
+          <tr key={usData.state}>
             <th scope="row">{usData.state}</th>
             <td>{usData.cases}</td>
             <td>{usData.deaths}</td>

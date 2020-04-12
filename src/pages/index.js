@@ -6,7 +6,8 @@ import axios from 'axios';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Map from 'components/Map';
-//import GlobalList from 'containers/GlobalList';
+import GlobalList from 'containers/GlobalList';
+import USAList from 'containers/USAList';
 
 const LOCATION = {
   lat: 0,
@@ -119,65 +120,36 @@ const IndexPage = () => {
       <Map {...mapSettings} />
 
       {/* content area start */}
-      <Container
-        type="content"
-        className="text-center container-fluid pr-5 pl-5 pt-5 pb-5"
-      >
-        <h2 className="is-dark-text-light">Global Cases</h2>
-        {/* row 1 - global */}
+      <Container type="content" className="container-fluid pr-5 pl-5 pt-5 pb-5">
         <div className="row">
-          <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+          <div className="col-lg-6 is-light-text mb-4">
             <div className="card grid-card is-card-dark h-100">
               <div className="card-heading">
                 <div className="is-dark-text-light letter-spacing text-small">
-                  Total Cases
+                  <h2>Global</h2>
                 </div>
               </div>
 
               <div className="card-value pt-4 text-x-large">
-                <h2 className="is-orange">1,762,703</h2>
+                <div className="is-dark-text-light">
+                  <GlobalList />
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-3 col-sm-6 is-light-text mb-4">
+          <div className="col-lg-6 is-light-text mb-4">
             <div className="card grid-card is-card-dark h-100">
               <div className="card-heading">
                 <div className="is-dark-text-light letter-spacing text-small">
-                  Global Deaths
+                  <h2>United States</h2>
                 </div>
               </div>
 
               <div className="card-value pt-4 text-x-large">
-                <h2 className="is-red">107,724</h2>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <div className="card grid-card is-card-dark h-100">
-              <div className="card-heading">
-                <div className="is-dark-text-light letter-spacing text-small">
-                  Recovered
+                <div className="is-dark-text-light">
+                  <USAList />
                 </div>
-              </div>
-
-              <div className="card-value pt-4 text-x-large">
-                <h2 className="is-green">395,667</h2>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-sm-6 is-light-text mb-4">
-            <div className="card grid-card is-card-dark h-100">
-              <div className="card-heading">
-                <div className="is-dark-text-light letter-spacing text-small">
-                  Countries
-                </div>
-              </div>
-
-              <div className="card-value pt-4">
-                <h2>212</h2>
               </div>
             </div>
           </div>

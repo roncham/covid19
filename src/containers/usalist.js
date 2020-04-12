@@ -2,23 +2,23 @@ import React from 'react';
 
 //import axiosbase from '../utils/axiobase';
 
-class GlobalList extends React.Component {
+class USAList extends React.Component {
   state = {
-    glData: []
+    usaData: []
   };
 
   componentDidMount() {
     // Load async data.
-    fetch('https://corona.lmao.ninja/all')
+    fetch('https://corona.lmao.ninja/v2/countries/USA')
       .then(res => {
         return res.json();
       })
       .then(json => {
         this.setState({
           isLoaded: true,
-          glData: json
+          usaData: json
         });
-        //console.log(this.state.glData);
+        //console.log(this.state.usaData);
       });
     error => {
       this.setState({ error });
@@ -26,31 +26,31 @@ class GlobalList extends React.Component {
   }
 
   render() {
-    const { isLoaded, glData } = this.state;
+    const { isLoaded, usaData } = this.state;
     if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
       return (
         <>
-          <ul>
+          <ul key={usaData._id}>
             <li>
-              <strong>Confirmed:</strong> {glData.cases}
+              <strong>Confirmed:</strong> {usaData.cases}
             </li>
             <li className="is-red">
-              <strong>Deaths:</strong> {glData.deaths}
+              <strong>Deaths:</strong> {usaData.deaths}
             </li>
             <li className="is-orange">
-              <strong>Active:</strong> {glData.active}
+              <strong>Active:</strong> {usaData.active}
             </li>
             <li className="is-red">
-              <strong>Critical:</strong> {glData.critical}
+              <strong>Critical:</strong> {usaData.critical}
             </li>
 
             <li className="is-green">
-              <strong>Recovered:</strong> {glData.recovered}
+              <strong>Recovered:</strong> {usaData.recovered}
             </li>
             <li>
-              <strong>Tests Done:</strong> {glData.tests}
+              <strong>Tests Done:</strong> {usaData.tests}
             </li>
           </ul>
         </>
@@ -59,4 +59,4 @@ class GlobalList extends React.Component {
   }
 }
 
-export default GlobalList;
+export default USAList;
