@@ -1,15 +1,13 @@
 import React from 'react';
 
-//import axiosbase from '../utils/axiobase';
-
 class GlobalList extends React.Component {
   state = {
     glData: []
   };
 
-  componentDidMount() {
+  async componentDidMount() {
     // Load async data.
-    fetch('https://corona.lmao.ninja/all')
+    await fetch('https://corona.lmao.ninja/all')
       .then(res => {
         return res.json();
       })

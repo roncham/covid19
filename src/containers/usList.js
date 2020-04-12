@@ -15,7 +15,7 @@ class StatesList extends React.Component {
       .then(response => response.data)
       .then(data => {
         this.setState({ usData: data });
-        console.log(this.state.usData);
+        //console.log(this.state.usData);
       });
   }
 

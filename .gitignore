@@ -35,6 +35,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+reduxcached3hFTG/
 
 # Typescript v1 declaration files
 typings/
@@ -57,7 +58,6 @@ typings/
 # gatsby files
 .cache/
 public
-reduxcached3hFTG/
 
 # Mac files
 .DS_Store

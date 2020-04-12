@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-leaflet",
-  "description": "A Gatsby starter with Leafet!",
+  "name": "coronavirus-covid19",
+  "description": "A Gatsby site for covid19",
   "version": "0.2.2",
-  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "author": "Ron Chamberlain",
   "dependencies": {
     "@popperjs/core": "^2.2.1",
     "axios": "^0.19.2",
@@ -38,7 +38,6 @@
     "eslint-config-zurgbot": "^0.0.6",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
-    "husky": "^4.2.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
@@ -54,19 +53,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby clean && gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "format": "prettier-eslint --eslint-config-path ./config/eslint.config.js --write '**/*.js'",
+    "format": "prettier-eslint --eslint-config-path .eslintrc --write '**/*.js'",
     "lint": "eslint -c ./config/eslint.config.js . --ext .js",
     "start": "yarn develop",
     "serve": "gatsby serve",
     "test": "jest --config ./config/jest.config.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "**/*.js": [
@@ -76,9 +70,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet"
+    "url": "https://github.com/roncham/covid19"
   },
   "bugs": {
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet/issues"
+    "url": "https://github.com/roncham/covid19/issues"
   }
 }

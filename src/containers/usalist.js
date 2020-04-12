@@ -1,15 +1,13 @@
 import React from 'react';
 
-//import axiosbase from '../utils/axiobase';
-
 class USAList extends React.Component {
   state = {
     usaData: []
   };
 
-  componentDidMount() {
+  async componentDidMount() {
     // Load async data.
-    fetch('https://corona.lmao.ninja/v2/countries/USA')
+    await fetch('https://corona.lmao.ninja/v2/countries/USA')
       .then(res => {
         return res.json();
       })
