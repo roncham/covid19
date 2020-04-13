@@ -94,7 +94,8 @@ const IndexPage = () => {
             html
           }),
           riseOnHover: true,
-          clickable: true
+          tap: true, // ron hacks
+          tapTolerance: 15
         });
       }
     });
