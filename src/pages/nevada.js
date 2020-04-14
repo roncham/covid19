@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { Bar, Doughnut, defaults } from 'react-chartjs-2';
+import { graphql } from 'gatsby';
+//import Img from 'gatsby-image';
 
 import Layout from 'components/Layout';
 import Container from 'components/Container';
@@ -51,6 +53,7 @@ class NevadaPage extends Component {
         '04/10/20',
         '04/11/20',
         '04/12/20',
+        '04/13/20'
       ],
       datasets: [
         {
@@ -90,12 +93,13 @@ class NevadaPage extends Component {
             1836,
             1953,
             2087,
-            2246,
+            2318,
             2456,
             2584,
             2700,
             2836,
             2971,
+            2993
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16' // Line color
@@ -144,6 +148,7 @@ class NevadaPage extends Component {
         '04/10/20',
         '04/11/20',
         '04/12/20',
+        '04/13/20'
       ],
       datasets: [
         {
@@ -163,32 +168,33 @@ class NevadaPage extends Component {
             0,
             1,
             1,
-            1,
-            1,
             2,
-            2,
-            2,
-            4,
-            6,
-            10,
-            10,
-            14,
-            14,
-            15,
+            3,
+            3,
+            5,
+            7,
+            8,
+            13,
+            13,
             17,
-            26,
-            36,
-            43,
-            45,
+            21,
+            25,
+            28,
+            32,
+            37,
             46,
-            46,
-            58,
+            51,
+            59,
+            69,
             74,
-            80,
-            86,
-            102,
+            77,
+            89,
+            97,
+            105,
             112,
-            114,
+            115,
+            117,
+            118
           ],
           backgroundColor: 'maroon'
         }
@@ -236,6 +242,7 @@ class NevadaPage extends Component {
         '04/10/20',
         '04/11/20',
         '04/12/20',
+        '04/13/20'
       ],
       datasets: [
         {
@@ -280,6 +287,7 @@ class NevadaPage extends Component {
             2258,
             2324,
             2444,
+            2509
           ],
           backgroundColor: '#933A16'
         }
@@ -328,6 +336,7 @@ class NevadaPage extends Component {
         '04/10/20',
         '04/11/20',
         '04/12/20',
+        '04/13/20'
       ],
       datasets: [
         {
@@ -372,7 +381,8 @@ class NevadaPage extends Component {
             75,
             96,
             100,
-            101
+            101,
+            106
           ],
           backgroundColor: 'maroon'
         }
@@ -384,7 +394,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Age of Cases',
-          data: [6, 35, 130, 1008, 706, 559],
+          data: [6, 37, 132, 1036, 727, 571],
           backgroundColor: [
             'rgb(54, 162, 235)', //blue
             'rgb(255, 99, 132)', //salmon
@@ -402,7 +412,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Sex',
-          data: [1222, 1179, 43],
+          data: [1258, 1211, 40],
           backgroundColor: [
             'rgb(54, 162, 235)',
             'rgb(255, 99, 132)',
@@ -469,7 +479,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>2971</h1>
+                    <h1>2993</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
@@ -480,7 +490,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>114</h1>
+                    <h1>118</h1>
                   </div>
                 </div>
               </div>
@@ -525,7 +535,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>2444</h1>
+                    <h1>2509</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
@@ -536,7 +546,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>101</h1>
+                    <h1>106</h1>
                   </div>
                 </div>
               </div>
@@ -573,6 +583,7 @@ class NevadaPage extends Component {
                 </div>
               </div>
             </div>
+
             <p className="is-dark-text-light">
               <em>
                 *Information is based on current investigations and may not be
@@ -590,3 +601,24 @@ class NevadaPage extends Component {
 }
 
 export default NevadaPage;
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 800) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`;
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "Clark-by-City.png" }) {
+      ...fluidImage
+    }
+    imageTwo: file(relativePath: { eq: "Clark-by-Zip.png" }) {
+      ...fluidImage
+    }
+  }
+`;

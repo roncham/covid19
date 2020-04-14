@@ -93,9 +93,7 @@ const IndexPage = () => {
             className: 'icon',
             html
           }),
-          riseOnHover: true,
-          tap: true, // ron hacks
-          tapTolerance: 15
+          riseOnHover: true
         });
       }
     });
