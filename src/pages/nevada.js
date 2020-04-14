@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { Bar, Doughnut, defaults } from 'react-chartjs-2';
-import { graphql } from 'gatsby';
-//import Img from 'gatsby-image';
+
+import clarkCity from '../assets/images/Clark-by-City.png';
+import clarkZip from '../assets/images/Clark-by-Zip.png';
 
 import Layout from 'components/Layout';
 import Container from 'components/Container';
@@ -10,7 +11,7 @@ import Container from 'components/Container';
 defaults.global.maintainAspectRatio = false;
 
 class NevadaPage extends Component {
-  render() {
+  render(props) {
     const data = {
       labels: [
         '03/04/20',
@@ -425,7 +426,7 @@ class NevadaPage extends Component {
     return (
       <Layout pageName="nevada">
         <Helmet>
-          <title>Nevada</title>
+          <title>Nevada Stats</title>
         </Helmet>
 
         {/* content area start */}
@@ -434,16 +435,17 @@ class NevadaPage extends Component {
           className="text-center container-fluid pr-5 pl-5 pt-5 pb-5"
         >
           <article className="canvas-container">
-            <h2 className="is-dark-text-light">Nevada</h2>
-            <h5 className="is-dark-text-light">
-              <em>NOTE: Nevada Data Is One Day Old</em>
-            </h5>
-            <p className="is-dark-text-light">
-              <em>Hover over colored sections to see numbers.</em>
-            </p>
-
+            <div>
+              <h2 className="is-dark-text-light">Nevada</h2>
+              <h5 className="is-dark-text-light">
+                <em>NOTE: Nevada Data Is One Day Old</em>
+              </h5>
+              <p className="is-dark-text-light">
+                <em>Hover over colored sections to see numbers.</em>
+              </p>
+            </div>
             <div className="row">
-              <div className="col-lg-12 is-light-text mb-4">
+              <div className="col-lg-9 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
@@ -455,10 +457,35 @@ class NevadaPage extends Component {
                   </div>
                 </div>
               </div>
+
+              <div className="col-md-3">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      People Tested
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <p className="is-dark-text-light">Total</p>
+                    <h1>25910</h1>
+                  </div>
+                </div>
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Tested Negative
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <p className="is-dark-text-light">Total</p>
+                    <h1>22901</h1>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="row">
-              <div className="col-md-8 is-light-text mb-4">
+              <div className="col-md-9 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
@@ -470,7 +497,7 @@ class NevadaPage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
@@ -495,58 +522,112 @@ class NevadaPage extends Component {
                 </div>
               </div>
             </div>
-
-            <h2 className="is-dark-text-light">Clark County NV</h2>
-
-            <div className="row">
-              <div className="col-lg-12 is-light-text mb-4">
-                <div className="card grid-card is-card-dark">
-                  <div className="card-heading">
-                    <div className="is-dark-text-light letter-spacing text-small">
-                      Clark County Cases
+            <div>
+              <h2 className="is-dark-text-light">Clark County NV</h2>
+              <div className="row">
+                <div className="col-lg-9 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Clark County Cases
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <Bar data={data3} />
                     </div>
                   </div>
-                  <div className="card-value pt-4">
-                    <Bar data={data3} />
+                </div>
+                <div className="col-md-3 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Clark County Cases
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <p className="is-dark-text-light">Total</p>
+                      <h1>2509</h1>
+                    </div>
+                  </div>
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Clark Co Hospitalized
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <p className="is-dark-text-light">Total</p>
+                      <h1>651</h1>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="row">
-              <div className="col-md-8 is-light-text mb-4">
-                <div className="card grid-card is-card-dark">
-                  <div className="card-heading">
-                    <div className="is-dark-text-light letter-spacing text-small">
-                      Clark County Deaths
+              <div className="row">
+                <div className="col-md-9 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Clark County Deaths
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <Bar data={data4} />
                     </div>
                   </div>
-                  <div className="card-value pt-4">
-                    <Bar data={data4} />
+                </div>
+                <div className="col-md-3 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Clark County Deaths
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <p className="is-dark-text-light">Total</p>
+                      <h1>106</h1>
+                    </div>
+                  </div>
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Deaths were Hospitalized
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <p className="is-dark-text-light">Total</p>
+                      <h1>98</h1>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 is-light-text mb-4">
-                <div className="card grid-card is-card-dark">
-                  <div className="card-heading">
-                    <div className="is-dark-text-light letter-spacing text-small">
-                      Clark County Cases
+              <div className="row">
+                <div className="col-md-6 mb-4">
+                  <div className="card is-card-dark chart-card">
+                    <div className="chart-container large">
+                      <div className="card-heading">
+                        <div className="is-dark-text-light letter-spacing text-small">
+                          Clark County Age of Cases
+                        </div>
+                      </div>
+                      <div className="card-value pt-4">
+                        <Bar data={data5} />
+                      </div>
                     </div>
-                  </div>
-                  <div className="card-value pt-4">
-                    <p className="is-dark-text-light">Total</p>
-                    <h1>2509</h1>
                   </div>
                 </div>
-                <div className="card grid-card is-card-dark">
-                  <div className="card-heading">
-                    <div className="is-dark-text-light letter-spacing text-small">
-                      Clark County Deaths
+
+                <div className="col-md-6 mb-4">
+                  <div className="card is-card-dark chart-card">
+                    <div className="chart-container large">
+                      <div className="card-heading">
+                        <div className="is-dark-text-light letter-spacing text-small">
+                          Clark County Gender of Cases
+                        </div>
+                      </div>
+                      <div className="card-value pt-4">
+                        <Doughnut data={data6} />
+                      </div>
                     </div>
-                  </div>
-                  <div className="card-value pt-4">
-                    <p className="is-dark-text-light">Total</p>
-                    <h1>106</h1>
                   </div>
                 </div>
               </div>
@@ -554,16 +635,21 @@ class NevadaPage extends Component {
 
             <div className="row">
               <div className="col-md-6 mb-4">
-                <div className="card is-card-dark chart-card">
-                  <div className="chart-container large">
-                    <div className="card-heading">
-                      <div className="is-dark-text-light letter-spacing text-small">
-                        Clark County Age of Cases
-                      </div>
+                <div className="card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Clark County Cases By City <br />
+                      <span>
+                        <em>As of 4-13-2020</em>
+                      </span>
                     </div>
-                    <div className="card-value pt-4">
-                      <Bar data={data5} />
-                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <img
+                      src={clarkCity}
+                      className="img-fluid"
+                      alt="Covid-19 in Clark Co Cities"
+                    />
                   </div>
                 </div>
               </div>
@@ -573,26 +659,36 @@ class NevadaPage extends Component {
                   <div className="chart-container large">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
-                        Clark County Gender of Cases
+                        Clark County Cases By Zip
+                        <br />
+                        <span>
+                          <em>As of 4-13-2020</em>
+                        </span>
                       </div>
                     </div>
                     <div className="card-value pt-4">
-                      <Doughnut data={data6} />
+                      <img
+                        src={clarkZip}
+                        className="img-fluid"
+                        alt="Covid-19 in Clark Co by zip code"
+                      />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <p className="is-dark-text-light">
-              <em>
-                *Information is based on current investigations and may not be
-                complete.
-                <br />
-                Due to limited weekend reporting counts may be artificially low
-                Saturday - Monday.
-              </em>
-            </p>
+            <div>
+              <p className="is-dark-text-light">
+                <em>
+                  *Information is based on current investigations and may not be
+                  complete.
+                  <br />
+                  Due to limited weekend reporting counts may be artificially
+                  low Saturday - Monday.
+                </em>
+              </p>
+            </div>
           </article>
         </Container>
       </Layout>
@@ -601,24 +697,3 @@ class NevadaPage extends Component {
 }
 
 export default NevadaPage;
-
-export const fluidImage = graphql`
-  fragment fluidImage on File {
-    childImageSharp {
-      fluid(maxWidth: 800) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`;
-
-export const pageQuery = graphql`
-  query {
-    imageOne: file(relativePath: { eq: "Clark-by-City.png" }) {
-      ...fluidImage
-    }
-    imageTwo: file(relativePath: { eq: "Clark-by-Zip.png" }) {
-      ...fluidImage
-    }
-  }
-`;
