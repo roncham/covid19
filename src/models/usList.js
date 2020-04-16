@@ -9,7 +9,7 @@ class StatesList extends React.Component {
 
   async componentDidMount() {
     // Load async data.
-    const url = '/states?sort=cases';
+    const url = '/v2/states?sort=cases';
     await axiosbase
       .get(url)
       .then((response) => response.data)
