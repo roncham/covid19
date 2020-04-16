@@ -2,23 +2,23 @@ import React from 'react';
 
 class GlobalList extends React.Component {
   state = {
-    glData: []
+    glData: [],
   };
 
   async componentDidMount() {
     // Load async data.
-    await fetch('https://corona.lmao.ninja/all')
-      .then(res => {
+    await fetch('https://corona.lmao.ninja/v2/all')
+      .then((res) => {
         return res.json();
       })
-      .then(json => {
+      .then((json) => {
         this.setState({
           isLoaded: true,
-          glData: json
+          glData: json,
         });
         //console.log(this.state.glData);
       });
-    error => {
+    (error) => {
       this.setState({ error });
     };
   }
