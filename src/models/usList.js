@@ -1,10 +1,10 @@
 import React from 'react';
 
-import axiosbase from '../utils/axiobase';
+import axiosbase from '../data/axiobase';
 
 class StatesList extends React.Component {
   state = {
-    usData: []
+    usData: [],
   };
 
   async componentDidMount() {
@@ -12,8 +12,8 @@ class StatesList extends React.Component {
     const url = '/states?sort=cases';
     await axiosbase
       .get(url)
-      .then(response => response.data)
-      .then(data => {
+      .then((response) => response.data)
+      .then((data) => {
         this.setState({ usData: data });
         //console.log(this.state.usData);
       });
@@ -22,7 +22,7 @@ class StatesList extends React.Component {
   render() {
     return (
       <>
-        {this.state.usData.map(usData => (
+        {this.state.usData.map((usData) => (
           <tr key={usData.state}>
             <th scope="row">{usData.state}</th>
             <td>{usData.cases}</td>

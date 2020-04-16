@@ -6,12 +6,12 @@ import axios from 'axios';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Map from 'components/Map';
-import GlobalList from 'components/GlobalList';
-import USAList from 'components/usaList';
+import GlobalList from 'models/GlobalList';
+import USAList from 'models/usaList';
 
 const LOCATION = {
   lat: 0,
-  lng: 0
+  lng: 0,
 };
 const CENTER = [LOCATION.lat, LOCATION.lng];
 const DEFAULT_ZOOM = 2;
@@ -45,14 +45,14 @@ const IndexPage = () => {
         return {
           type: 'Feature',
           properties: {
-            ...country
+            ...country,
           },
           geometry: {
             type: 'Point',
-            coordinates: [lng, lat]
-          }
+            coordinates: [lng, lat],
+          },
         };
-      })
+      }),
     };
 
     const geoJsonLayers = new L.GeoJSON(geoJson, {
@@ -91,11 +91,11 @@ const IndexPage = () => {
         return L.marker(latlng, {
           icon: L.divIcon({
             className: 'icon',
-            html
+            html,
           }),
-          riseOnHover: true
+          riseOnHover: true,
         });
-      }
+      },
     });
 
     geoJsonLayers.addTo(map);
@@ -107,7 +107,7 @@ const IndexPage = () => {
     zoom: DEFAULT_ZOOM,
     maxZoom: 8,
     maxNativeZoom: 7,
-    mapEffect
+    mapEffect,
   };
 
   return (
