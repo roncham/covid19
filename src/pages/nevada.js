@@ -60,6 +60,7 @@ class NevadaPage extends Component {
         '04/16/20',
         '04/17/20',
         '04/18/20',
+        '04/19/20',
       ],
       datasets: [
         {
@@ -111,6 +112,7 @@ class NevadaPage extends Component {
             3524,
             3626,
             3728,
+            3830,
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16', // Line color
@@ -165,6 +167,7 @@ class NevadaPage extends Component {
         '04/16/20',
         '04/17/20',
         '04/18/20',
+        '04/19/20',
       ],
       datasets: [
         {
@@ -216,6 +219,7 @@ class NevadaPage extends Component {
             142,
             151,
             155,
+            158,
           ],
           backgroundColor: 'maroon',
         },
@@ -269,6 +273,7 @@ class NevadaPage extends Component {
         '04/16/20',
         '04/17/20',
         '04/18/20',
+        '04/19/20',
       ],
       datasets: [
         {
@@ -319,6 +324,7 @@ class NevadaPage extends Component {
             2738,
             2882,
             2940,
+            2998,
           ],
           backgroundColor: '#933A16',
         },
@@ -373,6 +379,7 @@ class NevadaPage extends Component {
         '04/16/20',
         '04/17/20',
         '04/18/20',
+        '04/19/20',
       ],
       datasets: [
         {
@@ -424,6 +431,7 @@ class NevadaPage extends Component {
             124,
             133,
             137,
+            137,
           ],
           backgroundColor: 'maroon',
         },
@@ -435,7 +443,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Age of Cases',
-          data: [7, 47, 156, 1173, 852, 705],
+          data: [7, 49, 160, 1194, 871, 717],
           backgroundColor: [
             'rgb(54, 162, 235)', //blue
             'rgb(255, 99, 132)', //salmon
@@ -453,7 +461,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Sex',
-          data: [1473, 1407, 60],
+          data: [1497, 1439, 62],
           backgroundColor: [
             'rgb(54, 162, 235)',
             'rgb(255, 99, 132)',
@@ -507,7 +515,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>31598</h1>
+                    <h1>32347</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
@@ -518,7 +526,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>27870</h1>
+                    <h1>28517</h1>
                   </div>
                 </div>
               </div>
@@ -546,7 +554,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>3728</h1>
+                    <h1>3830</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
@@ -557,7 +565,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>155</h1>
+                    <h1>158</h1>
                   </div>
                 </div>
               </div>
@@ -586,7 +594,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>2940</h1>
+                      <h1>2998</h1>
                     </div>
                   </div>
                   <div className="card grid-card is-card-dark">
@@ -635,7 +643,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>125</h1>
+                      <h1>137</h1>
                     </div>
                   </div>
                 </div>
