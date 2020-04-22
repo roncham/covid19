@@ -238,7 +238,6 @@ class NevadaPage extends Component {
       labels: [
         '03/20/20',
         '03/23/20',
-        '03/24/20',
         '03/25/20',
         '03/26/20',
         '03/27/20',
@@ -307,11 +306,11 @@ class NevadaPage extends Component {
           label: 'CC Hosp New',
           backgroundColor: 'maroon',
           data: [
+            20,
             24,
             30,
             6,
             12,
-            ,
             8,
             45,
             53,
