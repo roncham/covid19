@@ -480,7 +480,7 @@ class NevadaPage extends Component {
             163,
             168,
             174,
-            74,
+            174,
           ],
           backgroundColor: 'maroon',
         },
