@@ -362,6 +362,51 @@ class NevadaPage extends Component {
             999,
           ],
         },
+      ],
+    };
+      const data3b = {
+        labels: [
+          '03/20/20',
+          '03/23/20',
+          '03/25/20',
+          '03/26/20',
+          '03/27/20',
+          '03/29/20',
+          '03/30/20',
+          '03/31/20',
+          '04/01/20',
+          '04/02/20',
+          '04/03/20',
+          '04/04/20',
+          '04/05/20',
+          '04/06/20',
+          '04/07/20',
+          '04/08/20',
+          '04/09/20',
+          '04/10/20',
+          '04/11/20',
+          '04/12/20',
+          '04/13/20',
+          '04/14/20',
+          '04/15/20',
+          '04/16/20',
+          '04/17/20',
+          '04/18/20',
+          '04/19/20',
+          '04/20/20',
+          '04/21/20',
+          '04/22/20',
+          '04/23/20',
+          '04/24/20',
+          '04/25/20',
+          '04/26/20',
+          '04/27/20',
+          '04/28/20',
+          '04/29/20',
+          '04/30/20',
+          '05/01/20',
+        ],
+        datasets: [
         {
           label: 'CC Hosp New',
           backgroundColor: 'maroon',
@@ -676,7 +721,7 @@ class NevadaPage extends Component {
             <div>
               <h2 className="is-dark-text-light">Clark County NV</h2>
               <div className="row">
-                <div className="col-lg-9 is-light-text mb-4">
+                <div className="col-lg-5 is-light-text mb-4">
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
@@ -685,6 +730,18 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <Bar data={data3} />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        CC New Hospitalized
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <Bar data={data3b} />
                     </div>
                   </div>
                 </div>
