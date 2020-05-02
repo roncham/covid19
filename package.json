@@ -9,7 +9,7 @@
     "bootstrap": "^4.4.1",
     "chart.js": "^2.9.3",
     "gatsby": "^2.19.43",
-    "gatsby-cli": "^2.11.8",
+    "gatsby-cli": "^2.12.7",
     "gatsby-image": "^2.3.2",
     "gatsby-plugin-react-helmet": "^3.1.23",
     "gatsby-plugin-react-leaflet": "2.0.12",
