@@ -1041,7 +1041,7 @@ class NevadaPage extends Component {
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
-                        Clark County Deaths
+                        Clark County Daily Deaths
                       </div>
                     </div>
                     <div className="card-value pt-4">
@@ -1064,12 +1064,12 @@ class NevadaPage extends Component {
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
-                        Deaths were Hospitalized
+                      Clark County Recovered
                       </div>
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>203</h1>
+                      <h1>3018</h1>
                     </div>
                   </div>
                 </div>
