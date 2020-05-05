@@ -282,6 +282,117 @@ class NevadaPage extends Component {
       ],
     };
 
+    const data2b = {
+      labels: [
+        '03/16/20',
+        '03/17/20',
+        '03/18/20',
+        '03/19/20',
+        '03/20/20',
+        '03/21/20',
+        '03/22/20',
+        '03/23/20',
+        '03/24/20',
+        '03/25/20',
+        '03/26/20',
+        '03/27/20',
+        '03/28/20',
+        '03/29/20',
+        '03/30/20',
+        '03/31/20',
+        '04/01/20',
+        '04/02/20',
+        '04/03/20',
+        '04/04/20',
+        '04/05/20',
+        '04/06/20',
+        '04/07/20',
+        '04/08/20',
+        '04/09/20',
+        '04/10/20',
+        '04/11/20',
+        '04/12/20',
+        '04/13/20',
+        '04/14/20',
+        '04/15/20',
+        '04/16/20',
+        '04/17/20',
+        '04/18/20',
+        '04/19/20',
+        '04/20/20',
+        '04/21/20',
+        '04/22/20',
+        '04/23/20',
+        '04/24/20',
+        '04/25/20',
+        '04/26/20',
+        '04/27/20',
+        '04/28/20',
+        '04/29/20',
+        '04/30/20',
+        '05/01/20',
+        '05/02/20',
+        '05/03/20',
+      ],
+      datasets: [
+        {
+          label: 'Nevada New Deaths',
+          backgroundColor: 'maroon',
+          data: [
+            1,
+            0,
+            1,
+            1,
+            0,
+            2,
+            2,
+            1,
+            5,
+            0,
+            4,
+            4,
+            4,
+            3,
+            4,
+            5,
+            9,
+            5,
+            8,
+            11,
+            6,
+            3,
+            12,
+            9,
+            10,
+            9,
+            5,
+            2,
+            3,
+            6,
+            4,
+            3,
+            9,
+            4,
+            3,
+            4,
+            10,
+            15,
+            8,
+            7,
+            2,
+            2,
+            11,
+            6,
+            19,
+            8,
+            2,
+            3,
+            5,
+          ],
+        }
+      ],
+    };
+
     const data3 = {
       labels: [
         '03/20/20',
@@ -422,7 +533,7 @@ class NevadaPage extends Component {
         ],
         datasets: [
         {
-          label: 'CC Hosp New',
+          label: 'Clark Co. Hosp New',
           backgroundColor: 'maroon',
           data: [
             20,
@@ -606,6 +717,117 @@ class NevadaPage extends Component {
       ],
     };
 
+    const data4b = {
+      labels: [
+        '03/16/20',
+        '03/17/20',
+        '03/18/20',
+        '03/19/20',
+        '03/20/20',
+        '03/21/20',
+        '03/22/20',
+        '03/23/20',
+        '03/24/20',
+        '03/25/20',
+        '03/26/20',
+        '03/27/20',
+        '03/28/20',
+        '03/29/20',
+        '03/30/20',
+        '03/31/20',
+        '04/01/20',
+        '04/02/20',
+        '04/03/20',
+        '04/04/20',
+        '04/05/20',
+        '04/06/20',
+        '04/07/20',
+        '04/08/20',
+        '04/09/20',
+        '04/10/20',
+        '04/11/20',
+        '04/12/20',
+        '04/13/20',
+        '04/14/20',
+        '04/15/20',
+        '04/16/20',
+        '04/17/20',
+        '04/18/20',
+        '04/19/20',
+        '04/20/20',
+        '04/21/20',
+        '04/22/20',
+        '04/23/20',
+        '04/24/20',
+        '04/25/20',
+        '04/26/20',
+        '04/27/20',
+        '04/28/20',
+        '04/29/20',
+        '04/30/20',
+        '05/01/20',
+        '05/02/20',
+        '05/03/20',
+      ],
+      datasets: [
+        {
+          label: 'Clark Co. New Deaths',
+          backgroundColor: 'maroon',
+          data: [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            2,
+            4,
+            0,
+            0,
+            4,
+            1,
+            8,
+            5,
+            6,
+            5,
+            2,
+            0,
+            0,
+            13,
+            11,
+            6,
+            4,
+            21,
+            4,
+            1,
+            5,
+            9,
+            6,
+            3,
+            9,
+            4,
+            0,
+            4,
+            9,
+            13,
+            5,
+            6,
+            0,
+            0,
+            12,
+            10,
+            6,
+            4,
+            9,
+            3,
+            5,
+          ]
+        }
+      ],
+    };
+
     const data5 = {
       labels: ['0-4', '5-17', '18-24', '25-49', '50-64', '65+'],
       datasets: [
@@ -701,7 +923,7 @@ class NevadaPage extends Component {
             </div>
 
             <div className="row">
-              <div className="col-md-9 is-light-text mb-4">
+              <div className="col-md-5 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
@@ -710,6 +932,18 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <Bar data={data2} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 is-light-text mb-4">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Nevada New Deaths
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <Bar data={data2b} />
                   </div>
                 </div>
               </div>
@@ -791,7 +1025,7 @@ class NevadaPage extends Component {
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-9 is-light-text mb-4">
+                <div className="col-md-5 is-light-text mb-4">
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
@@ -800,6 +1034,18 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <Bar data={data4} />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Clark County Deaths
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <Bar data={data4b} />
                     </div>
                   </div>
                 </div>
