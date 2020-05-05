@@ -336,7 +336,7 @@ class NevadaPage extends Component {
       ],
       datasets: [
         {
-          label: 'Nevada New Deaths',
+          label: 'Nevada Daily Deaths',
           backgroundColor: 'maroon',
           data: [
             1,
@@ -533,7 +533,7 @@ class NevadaPage extends Component {
         ],
         datasets: [
         {
-          label: 'Clark Co. Hosp New',
+          label: 'Clark Co. Hosp Daily',
           backgroundColor: 'maroon',
           data: [
             20,
@@ -771,7 +771,7 @@ class NevadaPage extends Component {
       ],
       datasets: [
         {
-          label: 'Clark Co. New Deaths',
+          label: 'Clark Co. Daily Deaths',
           backgroundColor: 'maroon',
           data: [
             1,
@@ -939,7 +939,7 @@ class NevadaPage extends Component {
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
-                      Nevada New Deaths
+                      Nevada Daily Deaths
                     </div>
                   </div>
                   <div className="card-value pt-4">
@@ -991,7 +991,7 @@ class NevadaPage extends Component {
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
-                        CC New Hospitalized
+                        CC Daily Hospitalized
                       </div>
                     </div>
                     <div className="card-value pt-4">
@@ -1053,7 +1053,7 @@ class NevadaPage extends Component {
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
-                        Clark County Deaths
+                        Clark County Daily Deaths
                       </div>
                     </div>
                     <div className="card-value pt-4">
