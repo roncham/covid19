@@ -76,6 +76,7 @@ class NevadaPage extends Component {
         '05/02/20',
         '05/03/20',
         '05/04/20',
+        '05/05/20',
       ],
       datasets: [
         {
@@ -143,6 +144,7 @@ class NevadaPage extends Component {
             5423,
             5491,
             5594,
+            5633,
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16', // Line color
@@ -213,6 +215,7 @@ class NevadaPage extends Component {
         '05/02/20',
         '05/03/20',
         '05/04/20',
+        '05/05/20',
       ],
       datasets: [
         {
@@ -280,6 +283,7 @@ class NevadaPage extends Component {
             255,
             260,
             264,
+            275,
           ],
           backgroundColor: 'maroon',
         },
@@ -338,6 +342,7 @@ class NevadaPage extends Component {
         '05/02/20',
         '05/03/20',
         '05/04/20',
+        '05/05/20',
       ],
       datasets: [
         {
@@ -394,6 +399,7 @@ class NevadaPage extends Component {
             3,
             5,
             4,
+            11,
           ],
         }
       ],
@@ -443,6 +449,7 @@ class NevadaPage extends Component {
         '05/02/20',
         '05/03/20',
         '05/04/20',
+        '05/05/20',
       ],
       datasets: [
         {
@@ -491,6 +498,7 @@ class NevadaPage extends Component {
             1002,
             1003,
             1025,
+            1051,
           ],
         },
       ],
@@ -539,6 +547,7 @@ class NevadaPage extends Component {
           '05/02/20',
           '05/03/20',
           '05/04/20',
+          '05/05/20',
         ],
         datasets: [
         {
@@ -587,6 +596,7 @@ class NevadaPage extends Component {
             3,
             1,
             22,
+            26,
           ],
         },
       ],
@@ -656,6 +666,7 @@ class NevadaPage extends Component {
         '05/02/20',
         '05/03/20',
         '05/04/20',
+        '05/05/20',
       ],
       datasets: [
         {
@@ -723,6 +734,7 @@ class NevadaPage extends Component {
             218,
             223,
             226,
+            238,
           ],
           backgroundColor: 'maroon',
         },
@@ -781,6 +793,7 @@ class NevadaPage extends Component {
         '05/02/20',
         '05/03/20',
         '05/04/20',
+        '05/05/20',
       ],
       datasets: [
         {
@@ -837,6 +850,7 @@ class NevadaPage extends Component {
             3,
             5,
             3,
+            12,
           ]
         }
       ],
@@ -847,7 +861,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Age of Cases',
-          data: [23, 108, 268, 1777, 1221, 1008],
+          data: [23, 115, 273, 1802, 1234, 1023],
           backgroundColor: [
             'rgb(54, 162, 235)', //blue
             'rgb(255, 99, 132)', //salmon
@@ -865,7 +879,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Sex',
-          data: [2254, 2058, 96],
+          data: [2283, 2097, 93],
           backgroundColor: [
             'rgb(255, 99, 132)',
             'rgb(54, 162, 235)',
@@ -919,7 +933,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>47,884</h1>
+                    <h1>49,275</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
@@ -930,7 +944,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>42,290</h1>
+                    <h1>43,612</h1>
                   </div>
                 </div>
               </div>
@@ -970,7 +984,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>5,594</h1>
+                    <h1>5,633</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
@@ -981,7 +995,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>264</h1>
+                    <h1>275</h1>
                   </div>
                 </div>
               </div>
@@ -1022,7 +1036,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>4,408</h1>
+                      <h1>4,473</h1>
                     </div>
                   </div>
                   <div className="card grid-card is-card-dark">
@@ -1033,7 +1047,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>1,025</h1>
+                      <h1>1,051</h1>
                     </div>
                   </div>
                 </div>
@@ -1072,7 +1086,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>226</h1>
+                      <h1>238</h1>
                     </div>
                   </div>
                   <div className="card grid-card is-card-dark">
@@ -1083,7 +1097,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>3,056</h1>
+                      <h1>3,659</h1>
                     </div>
                   </div>
                 </div>
