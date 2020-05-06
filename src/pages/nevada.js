@@ -12,7 +12,7 @@ defaults.global.maintainAspectRatio = false;
 
 class NevadaPage extends Component {
   render() {
-    const data = {
+    const data1 = {
       labels: [
         '03/04/20',
         '03/05/20',
@@ -145,6 +145,145 @@ class NevadaPage extends Component {
             5491,
             5594,
             5633,
+          ],
+          fill: false, // Don't fill area under the line
+          backgroundColor: '#933A16', // Line color
+        },
+      ],
+    };
+    const data1b = {
+      labels: [
+        '03/04/20',
+        '03/05/20',
+        '03/06/20',
+        '03/07/20',
+        '03/08/20',
+        '03/09/20',
+        '03/10/20',
+        '03/11/20',
+        '03/12/20',
+        '03/13/20',
+        '03/14/20',
+        '03/15/20',
+        '03/16/20',
+        '03/17/20',
+        '03/18/20',
+        '03/19/20',
+        '03/20/20',
+        '03/21/20',
+        '03/22/20',
+        '03/23/20',
+        '03/24/20',
+        '03/25/20',
+        '03/26/20',
+        '03/27/20',
+        '03/28/20',
+        '03/29/20',
+        '03/30/20',
+        '03/31/20',
+        '04/01/20',
+        '04/02/20',
+        '04/03/20',
+        '04/04/20',
+        '04/05/20',
+        '04/06/20',
+        '04/07/20',
+        '04/08/20',
+        '04/09/20',
+        '04/10/20',
+        '04/11/20',
+        '04/12/20',
+        '04/13/20',
+        '04/14/20',
+        '04/15/20',
+        '04/16/20',
+        '04/17/20',
+        '04/18/20',
+        '04/19/20',
+        '04/20/20',
+        '04/21/20',
+        '04/22/20',
+        '04/23/20',
+        '04/24/20',
+        '04/25/20',
+        '04/26/20',
+        '04/27/20',
+        '04/28/20',
+        '04/29/20',
+        '04/30/20',
+        '05/01/20',
+        '05/02/20',
+        '05/03/20',
+        '05/04/20',
+        '05/05/20',
+      ],
+      datasets: [
+        {
+          label: 'Nevada Daily Cases',
+          data: [
+            1,
+            2,
+            1,
+            0,
+            1,
+            0,
+            4,
+            3,
+            10,
+            12,
+            11,
+            18,
+            10,
+            5,
+            23,
+            8,
+            15,
+            30,
+            36,
+            88,
+            43,
+            99,
+            115,
+            86,
+            117,
+            258,
+            117,
+            166,
+            179,
+            56,
+            228,
+            94,
+            117,
+            134,
+            231,
+            138,
+            128,
+            116,
+            136,
+            135,
+            117,
+            123,
+            110,
+            203,
+            102,
+            102,
+            102,
+            107,
+            144,
+            127,
+            190,
+            141,
+            63,
+            88,
+            115,
+            93,
+            100,
+            229,
+            84,
+            112,
+            68,
+            103,
+            39,
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16', // Line color
@@ -911,7 +1050,7 @@ class NevadaPage extends Component {
               </p>
             </div>
             <div className="row">
-              <div className="col-md-9 is-light-text mb-4">
+              <div className="col-md-5 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
@@ -919,10 +1058,22 @@ class NevadaPage extends Component {
                     </div>
                   </div>
                   <div className="card-value pt-4">
-                    <Bar data={data} />
+                    <Bar data={data1} />
                   </div>
                 </div>
               </div>
+              <div className="col-md-4 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                      Nevada Daily Cases
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <Bar data={data1b} />
+                    </div>
+                  </div>
+                </div>
 
               <div className="col-md-3">
                 <div className="card grid-card is-card-dark">
