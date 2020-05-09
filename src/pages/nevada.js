@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import { Bar, Doughnut, defaults } from 'react-chartjs-2';
+import { Bar, Doughnut, Line, defaults } from 'react-chartjs-2';
 
 import clarkCity from '../assets/images/Clark-by-City.png';
 import clarkZip from '../assets/images/Clark-by-Zip.png';
@@ -568,6 +568,168 @@ class NevadaPage extends Component {
       ],
     };
 
+    const data2c = {
+      labels: [
+        '03/24/20',
+        '03/25/20',
+        '03/26/20',
+        '03/27/20',
+        '03/28/20',
+        '03/29/20',
+        '03/30/20',
+        '03/31/20',
+        '04/01/20',
+        '04/02/20',
+        '04/03/20',
+        '04/04/20',
+        '04/05/20',
+        '04/06/20',
+        '04/07/20',
+        '04/08/20',
+        '04/09/20',
+        '04/10/20',
+        '04/11/20',
+        '04/12/20',
+        '04/13/20',
+        '04/14/20',
+        '04/15/20',
+        '04/16/20',
+        '04/17/20',
+        '04/18/20',
+        '04/19/20',
+        '04/20/20',
+        '04/21/20',
+        '04/22/20',
+        '04/23/20',
+        '04/24/20',
+        '04/25/20',
+        '04/26/20',
+        '04/27/20',
+        '04/28/20',
+        '04/29/20',
+        '04/30/20',
+        '05/01/20',
+        '05/02/20',
+        '05/03/20',
+        '05/04/20',
+        '05/05/20',
+        '05/06/20',
+        '05/07/20',
+        '05/08/20',
+      ],
+      datasets: [
+        {
+          label: 'Test Positivity Rate',
+          fill: false, // Don't fill area under the line
+          backgroundColor: 'rgb(54, 162, 235)', //blue
+          borderColor: 'rgb(54, 162, 235)', //blue
+          data: [
+            7.0,
+            8.2,
+            8.0,
+            7.3,
+            8.1,
+            8.9,
+            9.5,
+            10.0,
+            10.4,
+            10.4,
+            10.8,
+            10.9,
+            11.1,
+            11.2,
+            11.3,
+            11.3,
+            11.4,
+            11.4,
+            11.5,
+            11.7,
+            11.6,
+            11.6,
+            11.7,
+            11.8,
+            11.8,
+            11.8,
+            11.8,
+            11.9,
+            12.0,
+            12.1,
+            12.2,
+            12.2,
+            12.1,
+            12.1,
+            12.0,
+            11.9,
+            11.9,
+            12.0,
+            12.0,
+            12.0,
+            11.9,
+            11.7,
+            11.5,
+            11.2,
+            11.0,
+            10.7,
+          ],
+        },
+          {
+            label: 'WHO 10% Max Rate Before Opening',
+            fill: false, // Don't fill area under the line
+            backgroundColor: 'green',
+            borderColor: 'green',
+            pointRadius: 1,
+            data: [
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+            ],
+          },
+        ],
+      };
+    
     const data3 = {
       labels: [
         '03/20/20',
@@ -1191,6 +1353,22 @@ class NevadaPage extends Component {
                 </div>
               </div>
             </div>
+
+            <div className="row">
+              <div className="col-md-12 is-light-text mb-4">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      NV Test Positivity Rate
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    <Line data={data2c} />
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div>
               <h2 className="is-dark-text-light">Clark County NV</h2>
               <div className="row">
