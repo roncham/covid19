@@ -80,6 +80,7 @@ class NevadaPage extends Component {
         '05/06/20',
         '05/07/20',
         '05/08/20',
+        '05/09/20',
       ],
       datasets: [
         {
@@ -151,6 +152,7 @@ class NevadaPage extends Component {
             5766,
             5884,
             6028,
+            6098,
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16', // Line color
@@ -225,6 +227,7 @@ class NevadaPage extends Component {
         '05/06/20',
         '05/07/20',
         '05/08/20',
+        '05/09/20',
       ],
       datasets: [
         {
@@ -296,6 +299,7 @@ class NevadaPage extends Component {
             133,
             118,
             144,
+            70,
           ],
           fill: false, // Don't fill area under the line
           backgroundColor: '#933A16', // Line color
@@ -370,6 +374,7 @@ class NevadaPage extends Component {
         '05/06/20',
         '05/07/20',
         '05/08/20',
+        '05/09/20',
       ],
       datasets: [
         {
@@ -437,10 +442,11 @@ class NevadaPage extends Component {
             274,
             277,
             281,
-            284,
-            293,
-            300,
-            301,
+            285,
+            295,
+            302,
+            304,
+            305,
           ],
           backgroundColor: 'maroon',
         },
@@ -503,6 +509,7 @@ class NevadaPage extends Component {
         '05/06/20',
         '05/07/20',
         '05/08/20',
+        '05/09/20',
       ],
       datasets: [
         {
@@ -560,8 +567,9 @@ class NevadaPage extends Component {
             3,
             4,
             3,
-            9,
+            10,
             7,
+            2,
             1,
           ],
         }
@@ -616,6 +624,7 @@ class NevadaPage extends Component {
         '05/06/20',
         '05/07/20',
         '05/08/20',
+        '05/09/20',
       ],
       datasets: [
         {
@@ -670,6 +679,7 @@ class NevadaPage extends Component {
             11.2,
             11.0,
             10.7,
+            10.4,
           ],
         },
           {
@@ -679,6 +689,7 @@ class NevadaPage extends Component {
             borderColor: 'green',
             pointRadius: 1,
             data: [
+              10.0,
               10.0,
               10.0,
               10.0,
@@ -778,6 +789,7 @@ class NevadaPage extends Component {
         '05/06/20',
         '05/07/20',
         '05/08/20',
+        '05/09/20',
       ],
       datasets: [
         {
@@ -830,6 +842,7 @@ class NevadaPage extends Component {
             1067,
             1078,
             1090,
+            1088,
           ],
         },
       ],
@@ -882,6 +895,7 @@ class NevadaPage extends Component {
           '05/06/20',
           '05/07/20',
           '05/08/20',
+          '05/09/20',
         ],
         datasets: [
         {
@@ -934,6 +948,7 @@ class NevadaPage extends Component {
             16,
             11,
             12,
+            -2,
           ],
         },
       ],
@@ -1007,6 +1022,7 @@ class NevadaPage extends Component {
         '05/06/20',
         '05/07/20',
         '05/08/20',
+        '05/09/20',
       ],
       datasets: [
         {
@@ -1078,6 +1094,7 @@ class NevadaPage extends Component {
             245,
             253,
             256,
+            260,
           ],
           backgroundColor: 'maroon',
         },
@@ -1140,6 +1157,7 @@ class NevadaPage extends Component {
         '05/06/20',
         '05/07/20',
         '05/08/20',
+        '05/09/20',
       ],
       datasets: [
         {
@@ -1200,6 +1218,7 @@ class NevadaPage extends Component {
             7,
             11,
             3,
+            4,
           ]
         }
       ],
@@ -1210,7 +1229,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Age of Cases',
-          data: [31, 123, 290, 1903, 1289, 1065],
+          data: [31, 126, 295, 1922, 1295, 1078],
           backgroundColor: [
             'rgb(54, 162, 235)', //blue
             'rgb(255, 99, 132)', //salmon
@@ -1228,7 +1247,7 @@ class NevadaPage extends Component {
       datasets: [
         {
           label: 'Sex',
-          data: [2398, 2212, 94],
+          data: [2420, 2236, 94],
           backgroundColor: [
             'rgb(255, 99, 132)',
             'rgb(54, 162, 235)',
@@ -1294,7 +1313,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>56,111</h1>
+                    <h1>58,809</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
@@ -1305,7 +1324,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>50,083</h1>
+                    <h1>52,711</h1>
                   </div>
                 </div>
               </div>
@@ -1345,7 +1364,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>6,028</h1>
+                    <h1>6,098</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
@@ -1356,7 +1375,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>301</h1>
+                    <h1>305</h1>
                   </div>
                 </div>
               </div>
@@ -1413,7 +1432,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>4,704</h1>
+                      <h1>4,750</h1>
                     </div>
                   </div>
                   <div className="card grid-card is-card-dark">
@@ -1424,7 +1443,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>1,090</h1>
+                      <h1>1,088</h1>
                     </div>
                   </div>
                 </div>
@@ -1463,7 +1482,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>256</h1>
+                      <h1>260</h1>
                     </div>
                   </div>
                   <div className="card grid-card is-card-dark">
@@ -1474,7 +1493,7 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <p className="is-dark-text-light">Total</p>
-                      <h1>3,936</h1>
+                      <h1>3,963</h1>
                     </div>
                   </div>
                 </div>
@@ -1559,6 +1578,24 @@ class NevadaPage extends Component {
                   Due to limited weekend reporting counts may be artificially
                   low Saturday - Monday.
                 </em>
+              </p>
+              <h3>Nevada Data Sources:</h3>
+              <p>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9"
+                >
+                  Nevada DWWS
+                </a>
+                <br />
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.southernnevadahealthdistrict.org/coronavirus"
+                >
+                  SNHD
+                </a>
               </p>
             </div>
           </article>
