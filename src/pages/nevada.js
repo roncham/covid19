@@ -699,6 +699,7 @@ class NevadaPage extends Component {
             10.7,
             10.4,
             10.2,
+            9.8,
           ],
         },
           {
@@ -1408,7 +1409,7 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <p className="is-dark-text-light">Total</p>
-                    <h1>60,084-?</h1>
+                    <h1>64,075</h1>
                   </div>
                 </div>
                 <div className="card grid-card is-card-dark">
