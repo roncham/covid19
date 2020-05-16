@@ -34,6 +34,9 @@ const Header = props => {
             <NavItem>
               <NavLink href="/nevada/">Nevada</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href='https://ko-fi.com/E1E21PXOT' target='_blank' rel='noopener noreferrer'><img height='36' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=2' alt='Buy Me a Coffee at ko-fi.com' /></NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
