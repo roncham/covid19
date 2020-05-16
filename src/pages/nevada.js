@@ -1773,7 +1773,62 @@ class NevadaPage extends Component {
               </p>
             </div>
             <div className="row">
-              <div className="col-md-5 is-light-text mb-4">
+              <div className="col-md-3">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      People Tested
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    
+                    <h1>73,664</h1>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Tested Negative
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    
+                    <h1>67,002</h1>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Nevada Cases
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    
+                    <h1>6,662</h1>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="card grid-card is-card-dark">
+                  <div className="card-heading">
+                    <div className="is-dark-text-light letter-spacing text-small">
+                      Nevada Deaths
+                    </div>
+                  </div>
+                  <div className="card-value pt-4">
+                    
+                    <h1>344</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-6 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
@@ -1785,7 +1840,7 @@ class NevadaPage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 is-light-text mb-4">
+              <div className="col-md-6 is-light-text mb-4">
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
@@ -1797,35 +1852,10 @@ class NevadaPage extends Component {
                     </div>
                   </div>
                 </div>
-
-              <div className="col-md-3">
-                <div className="card grid-card is-card-dark">
-                  <div className="card-heading">
-                    <div className="is-dark-text-light letter-spacing text-small">
-                      People Tested
-                    </div>
-                  </div>
-                  <div className="card-value pt-4">
-                    <p className="is-dark-text-light">Total</p>
-                    <h1>73,664</h1>
-                  </div>
-                </div>
-                <div className="card grid-card is-card-dark">
-                  <div className="card-heading">
-                    <div className="is-dark-text-light letter-spacing text-small">
-                      Tested Negative
-                    </div>
-                  </div>
-                  <div className="card-value pt-4">
-                    <p className="is-dark-text-light">Total</p>
-                    <h1>67,002</h1>
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div className="row">
-              <div className="col-md-5 is-light-text mb-4">
+              <div className="col-md-6 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
@@ -1837,7 +1867,7 @@ class NevadaPage extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 is-light-text mb-4">
+              <div className="col-md-6 is-light-text mb-4">
                 <div className="card grid-card is-card-dark">
                   <div className="card-heading">
                     <div className="is-dark-text-light letter-spacing text-small">
@@ -1846,30 +1876,6 @@ class NevadaPage extends Component {
                   </div>
                   <div className="card-value pt-4">
                     <Bar data={data2b} />
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="card grid-card is-card-dark">
-                  <div className="card-heading">
-                    <div className="is-dark-text-light letter-spacing text-small">
-                      Nevada Cases
-                    </div>
-                  </div>
-                  <div className="card-value pt-4">
-                    <p className="is-dark-text-light">Total</p>
-                    <h1>6,662</h1>
-                  </div>
-                </div>
-                <div className="card grid-card is-card-dark">
-                  <div className="card-heading">
-                    <div className="is-dark-text-light letter-spacing text-small">
-                      Nevada Deaths
-                    </div>
-                  </div>
-                  <div className="card-value pt-4">
-                    <p className="is-dark-text-light">Total</p>
-                    <h1>344</h1>
                   </div>
                 </div>
               </div>
@@ -1892,6 +1898,57 @@ class NevadaPage extends Component {
 
             <div>
               <h2 className="is-dark-text-light">Clark County NV</h2>
+              <div className="row">
+                <div className="col-md-3 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Clark County Cases
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <h1>5,298</h1>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                        Clark Co Hospitalized
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <h1>1,430</h1>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                      Clark County Recovered
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <h1>3,963</h1>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3 is-light-text mb-4">
+                  <div className="card grid-card is-card-dark">
+                    <div className="card-heading">
+                      <div className="is-dark-text-light letter-spacing text-small">
+                      Clark County Recovered
+                      </div>
+                    </div>
+                    <div className="card-value pt-4">
+                      <h1>3,963</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="row">
                 <div className="col-lg-6 is-light-text mb-4">
                   <div className="card grid-card is-card-dark">
@@ -1919,7 +1976,7 @@ class NevadaPage extends Component {
                 </div>
                 </div>
               <div className="row">
-                <div className="col-lg-5 is-light-text mb-4">
+                <div className="col-lg-6 is-light-text mb-4">
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
@@ -1931,7 +1988,7 @@ class NevadaPage extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 is-light-text mb-4">
+                <div className="col-lg-6 is-light-text mb-4">
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
@@ -1943,33 +2000,10 @@ class NevadaPage extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3 is-light-text mb-4">
-                  <div className="card grid-card is-card-dark">
-                    <div className="card-heading">
-                      <div className="is-dark-text-light letter-spacing text-small">
-                        Clark County Cases
-                      </div>
-                    </div>
-                    <div className="card-value pt-4">
-                      <p className="is-dark-text-light">Total</p>
-                      <h1>5,298</h1>
-                    </div>
-                  </div>
-                  <div className="card grid-card is-card-dark">
-                    <div className="card-heading">
-                      <div className="is-dark-text-light letter-spacing text-small">
-                        Clark Co Hospitalized
-                      </div>
-                    </div>
-                    <div className="card-value pt-4">
-                      <p className="is-dark-text-light">Total</p>
-                      <h1>1,430</h1>
-                    </div>
-                  </div>
-                </div>
               </div>
+
               <div className="row">
-                <div className="col-md-5 is-light-text mb-4">
+                <div className="col-md-6 is-light-text mb-4">
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
@@ -1981,7 +2015,7 @@ class NevadaPage extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4 is-light-text mb-4">
+                <div className="col-md-6 is-light-text mb-4">
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
@@ -1990,30 +2024,6 @@ class NevadaPage extends Component {
                     </div>
                     <div className="card-value pt-4">
                       <Bar data={data4b} />
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3 is-light-text mb-4">
-                  <div className="card grid-card is-card-dark">
-                    <div className="card-heading">
-                      <div className="is-dark-text-light letter-spacing text-small">
-                        Clark County Deaths
-                      </div>
-                    </div>
-                    <div className="card-value pt-4">
-                      <p className="is-dark-text-light">Total</p>
-                      <h1>293</h1>
-                    </div>
-                  </div>
-                  <div className="card grid-card is-card-dark">
-                    <div className="card-heading">
-                      <div className="is-dark-text-light letter-spacing text-small">
-                      Clark County Recovered
-                      </div>
-                    </div>
-                    <div className="card-value pt-4">
-                      <p className="is-dark-text-light">Total</p>
-                      <h1>3,963</h1>
                     </div>
                   </div>
                 </div>
