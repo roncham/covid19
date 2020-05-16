@@ -1939,11 +1939,11 @@ class NevadaPage extends Component {
                   <div className="card grid-card is-card-dark">
                     <div className="card-heading">
                       <div className="is-dark-text-light letter-spacing text-small">
-                      Clark County Recovered
+                      Clark County Deaths
                       </div>
                     </div>
                     <div className="card-value pt-4">
-                      <h1>3,963</h1>
+                      <h1>293</h1>
                     </div>
                   </div>
                 </div>
