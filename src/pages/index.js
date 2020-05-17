@@ -119,7 +119,7 @@ const IndexPage = () => {
 			<Map {...mapSettings} />
 
 			{/* content area start */}
-			<Container type="content" className="container-fluid pr-5 pl-5 pt-5 pb-5">
+			<Container type="content" className="container-fluid pr-3 pl-3 pt-3 pb-3">
 				<div className="row">
 					<div className="col-lg-6 is-light-text mb-4">
 						<div className="card grid-card is-card-dark h-100">

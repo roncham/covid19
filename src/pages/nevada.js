@@ -1762,7 +1762,7 @@ class NevadaPage extends Component {
 				{/* content area start */}
 				<Container
 					type="content"
-					className="text-center container-fluid pr-5 pl-5 pt-5 pb-5"
+					className="text-center container-fluid pr-3 pl-3 pt-3 pb-3"
 				>
 					<article className="canvas-container">
 						<div>

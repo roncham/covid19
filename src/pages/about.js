@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import Layout from 'components/Layout';
-import Container from 'components/Container';
+import Layout from '../components/Layout';
+import Container from '../components/Container';
 
 const AboutPage = () => {
 	return (
@@ -12,7 +12,7 @@ const AboutPage = () => {
 			</Helmet>
 
 			{/* content area start */}
-			<Container type="content" className="container pr-5 pl-5 pt-5 pb-5">
+			<Container type="content" className="pr-3 pl-3 pt-3 pb-3">
 				<h2 className="is-dark-text-light">About</h2>
 
 				<div className="card is-card-dark">
