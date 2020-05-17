@@ -25,10 +25,10 @@ class StatesList extends React.Component {
         {this.state.usData.map((usData) => (
           <tr key={usData.state}>
             <th scope="row">{usData.state}</th>
-            <td>{usData.cases}</td>
-            <td>{usData.deaths}</td>
-            <td>{usData.active}</td>
-            <td>{usData.tests}</td>
+            <td className="is-yellow">{usData.cases}</td>
+            <td className="is-red">{usData.deaths}</td>
+            <td className="is-orange">{usData.active}</td>
+            <td className="is-blue">{usData.tests}</td>
           </tr>
         ))}
       </>

@@ -4,54 +4,71 @@
 @import 'pages/__pages';
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: $font-default;
-  padding: 0;
-  margin: 0;
-  background: #17202e;
-  color: $grey-50;
+	font-family: $font-default;
+	padding: 0;
+	margin: 0;
+	background: #17202e;
+	color: $grey-50;
 }
 
 .wrapper {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
 }
 
 main {
-  padding: 2em 0;
+	padding: 2em 0;
 }
 
 .is-card-dark {
-  padding: 1em;
-  background: #202a3b !important;
-  border-radius: 0.4em;
-  margin-bottom: 1em;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
+	padding: 1em;
+	background: #202a3b !important;
+	border-radius: 0.4em;
+	margin-bottom: 1em;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.9);
 }
 
 .is-dark-text-light {
-  color: $grey-400; //#8091ab;
+	color: $grey-400; //#8091ab;
+}
+
+.is-blue {
+	color: rgb(54, 162, 235);
 }
 
 .is-red {
-  color: $red;
+	color: $red;
 }
 
 .is-green {
-  color: $green;
+	color: $green;
 }
 
 .is-orange {
-  color: $amber-900;
+	color: $amber-900;
 }
 .is-purple {
-  color: #5e35b1;
+	color: #5e35b1;
+}
+
+.is-yellow {
+	color: rgb(255, 205, 86);
 }
 
 .chartjs-render-monitor {
-  min-height: 300px;
+	min-height: 300px;
+}
+
+@media only screen and (max-width: 400px) {
+	main {
+		max-width: 360px;
+	}
+	table.table {
+		max-width: 360px;
+	}
 }
