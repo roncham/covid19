@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
-import { Bar, Doughnut, Line, defaults } from 'react-chartjs-2';
-
-// @ts-ignore
-import clarkCity from '../assets/images/Clark-by-City.png';
-// @ts-ignore
-import clarkZip from '../assets/images/Clark-by-Zip.png';
+import { Bar, Line, defaults } from 'react-chartjs-2';
 
 import Layout from '../components/Layout';
 import Container from '../components/Container';
@@ -96,6 +91,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -181,6 +177,7 @@ class NevadaPage extends Component {
 						7255,
 						7401,
 						7696,
+						7770,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Line color
@@ -269,6 +266,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -354,6 +352,7 @@ class NevadaPage extends Component {
 						89,
 						146,
 						295,
+						74,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Bar color
@@ -442,6 +441,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -508,25 +508,26 @@ class NevadaPage extends Component {
 						275,
 						280,
 						286,
-						290,
-						295,
-						308,
-						317,
-						324,
-						331,
-						334,
-						339,
-						346,
-						352,
-						356,
-						366,
+						291,
+						296,
+						309,
+						318,
+						325,
+						332,
+						335,
+						340,
+						347,
+						353,
+						357,
 						367,
-						373,
-						380,
-						385,
-						386,
-						386,
-						386,
+						368,
+						374,
+						381,
+						387,
+						388,
+						389,
+						391,
+						391,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -603,6 +604,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -658,7 +660,7 @@ class NevadaPage extends Component {
 						7,
 						5,
 						6,
-						4,
+						5,
 						5,
 						13,
 						9,
@@ -673,9 +675,10 @@ class NevadaPage extends Component {
 						1,
 						6,
 						7,
-						5,
+						6,
 						1,
-						0,
+						1,
+						2,
 						0,
 					],
 				},
@@ -744,6 +747,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -812,6 +816,7 @@ class NevadaPage extends Component {
 						7.7,
 						7.4,
 						7.2,
+						7.0,
 					],
 				},
 				{
@@ -881,6 +886,7 @@ class NevadaPage extends Component {
 						10.0,
 						10.0,
 						10.0,
+						10.0,
 					],
 				},
 				{
@@ -890,6 +896,7 @@ class NevadaPage extends Component {
 					borderColor: 'green',
 					pointRadius: 1,
 					data: [
+						5.0,
 						5.0,
 						5.0,
 						5.0,
@@ -1037,6 +1044,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -1123,6 +1131,7 @@ class NevadaPage extends Component {
 						5734,
 						5815,
 						6048,
+						6140,
 					],
 				},
 			],
@@ -1210,6 +1219,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -1296,6 +1306,7 @@ class NevadaPage extends Component {
 						84,
 						81,
 						233,
+						92,
 					],
 				},
 			],
@@ -1363,6 +1374,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -1429,6 +1441,7 @@ class NevadaPage extends Component {
 						1501,
 						1513,
 						1522,
+						1524,
 					],
 				},
 			],
@@ -1495,6 +1508,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -1561,6 +1575,7 @@ class NevadaPage extends Component {
 						26,
 						12,
 						9,
+						2,
 					],
 				},
 			],
@@ -1648,6 +1663,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -1733,6 +1749,7 @@ class NevadaPage extends Component {
 						320,
 						322,
 						329,
+						329,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1809,6 +1826,7 @@ class NevadaPage extends Component {
 				'5/20/20',
 				'5/21/20',
 				'5/22/20',
+				'5/23/20',
 			],
 			datasets: [
 				{
@@ -1883,6 +1901,7 @@ class NevadaPage extends Component {
 						6,
 						2,
 						7,
+						0,
 					],
 				},
 			],
@@ -1951,7 +1970,7 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className="card-value pt-4">
-										<h1>107,047</h1>
+										<h1>110,260</h1>
 									</div>
 								</div>
 							</div>
@@ -1963,7 +1982,7 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className="card-value pt-4">
-										<h1>99,351</h1>
+										<h1>102,511</h1>
 									</div>
 								</div>
 							</div>
@@ -1975,7 +1994,7 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className="card-value pt-4">
-										<h1>7,696</h1>
+										<h1>7,770</h1>
 									</div>
 								</div>
 							</div>
@@ -1987,7 +2006,7 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className="card-value pt-4">
-										<h1>386</h1>
+										<h1>391</h1>
 									</div>
 								</div>
 							</div>
@@ -2057,209 +2076,6 @@ class NevadaPage extends Component {
 									</div>
 									<div className="card-value pt-4">
 										<Line data={data2c} />
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<h2 className="is-dark-text-light">Clark County NV</h2>
-							<div className="row">
-								<div className="col-lg-3 col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark County Cases
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<h1>6,048</h1>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark Co Hospitalized
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<h1>1,522</h1>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark Co Recovered
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<h1>4,670</h1>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark County Deaths
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<h1>329</h1>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div className="row">
-								<div className="col-lg-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark County Cases
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<Bar data={data3a} />
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												CC Daily Cases
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<Bar data={data3a2} />
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								<div className="col-lg-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark County Hospitalized
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<Bar data={data3} />
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												CC Daily Hospitalized
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<Bar data={data3b} />
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div className="row">
-								<div className="col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark County Deaths - Date Reported
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<Bar data={data4} />
-										</div>
-									</div>
-								</div>
-								<div className="col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark County Daily Deaths
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<Bar data={data4b} />
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								<div className="col-md-6 mb-4">
-									<div className="card is-card-dark chart-card">
-										<div className="chart-container large">
-											<div className="card-heading">
-												<div className="is-dark-text-light letter-spacing text-small">
-													Clark County Age of Cases
-												</div>
-											</div>
-											<div className="card-value pt-4">
-												<Bar data={data5} />
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className="col-md-6 mb-4">
-									<div className="card is-card-dark chart-card">
-										<div className="chart-container large">
-											<div className="card-heading">
-												<div className="is-dark-text-light letter-spacing text-small">
-													Clark County Gender of Cases
-												</div>
-											</div>
-											<div className="card-value pt-4">
-												<Doughnut data={data6} />
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div className="row">
-							<div className="col-md-6 mb-4">
-								<div className="card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
-											Clark County Cases By City
-										</div>
-									</div>
-									<div className="card-value pt-4">
-										<img
-											src={clarkCity}
-											className="img-fluid"
-											alt="Covid-19 in Clark Co Cities"
-										/>
-									</div>
-								</div>
-							</div>
-
-							<div className="col-md-6 mb-4">
-								<div className="card is-card-dark chart-card">
-									<div className="chart-container large">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
-												Clark County Cases By Zip
-											</div>
-										</div>
-										<div className="card-value pt-4">
-											<img
-												src={clarkZip}
-												className="img-fluid"
-												alt="Covid-19 in Clark Co by zip code"
-											/>
-										</div>
 									</div>
 								</div>
 							</div>
