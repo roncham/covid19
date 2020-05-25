@@ -20,18 +20,10 @@ const USStatesPage = () => {
 							<thead>
 								<tr>
 									<th scope="col">State</th>
-									<th scope="col" className="is-yellow">
-										Cases
-									</th>
-									<th scope="col" className="is-red">
-										Deaths
-									</th>
-									<th scope="col" className="is-orange">
-										Active
-									</th>
-									<th scope="col" className="is-blue">
-										Tests
-									</th>
+									<th scope="col">Cases</th>
+									<th scope="col">Deaths</th>
+									<th scope="col">Active</th>
+									<th scope="col">Tests</th>
 								</tr>
 							</thead>
 							<tbody>
