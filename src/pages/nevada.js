@@ -93,6 +93,7 @@ class NevadaPage extends Component {
 				'5/22/20',
 				'5/23/20',
 				'5/24/20',
+				'5/25/20',
 			],
 			datasets: [
 				{
@@ -180,6 +181,7 @@ class NevadaPage extends Component {
 						7696,
 						7770,
 						7879,
+						7997,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Line color
@@ -270,6 +272,7 @@ class NevadaPage extends Component {
 				'5/22/20',
 				'5/23/20',
 				'5/24/20',
+				'5/25/20',
 			],
 			datasets: [
 				{
@@ -357,6 +360,7 @@ class NevadaPage extends Component {
 						295,
 						74,
 						109,
+						118,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Bar color
@@ -447,6 +451,7 @@ class NevadaPage extends Component {
 				'5/22/20',
 				'5/23/20',
 				'5/24/20',
+				'5/25/20',
 			],
 			datasets: [
 				{
@@ -531,9 +536,10 @@ class NevadaPage extends Component {
 						387,
 						388,
 						389,
-						391,
 						392,
 						393,
+						394,
+						395,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -612,6 +618,7 @@ class NevadaPage extends Component {
 				'5/22/20',
 				'5/23/20',
 				'5/24/20',
+				'5/25/20',
 			],
 			datasets: [
 				{
@@ -685,7 +692,8 @@ class NevadaPage extends Component {
 						6,
 						1,
 						1,
-						2,
+						3,
+						1,
 						1,
 						1,
 					],
@@ -757,10 +765,11 @@ class NevadaPage extends Component {
 				'5/22/20',
 				'5/23/20',
 				'5/24/20',
+				'5/25/20',
 			],
 			datasets: [
 				{
-					label: 'Test Positivity Rate',
+					label: '% Tests Positive',
 					fill: false, // Don't fill area under the line
 					backgroundColor: 'rgb(54, 162, 235)', //blue
 					borderColor: 'rgb(54, 162, 235)', //blue
@@ -827,10 +836,11 @@ class NevadaPage extends Component {
 						7.2,
 						7.0,
 						6.9,
+						6.5,
 					],
 				},
 				{
-					label: 'WHO Max Rate Before Re-Opening',
+					label: 'WHO Max Rate Before Stage-1',
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16',
 					borderColor: '#933A16',
@@ -898,15 +908,17 @@ class NevadaPage extends Component {
 						10.0,
 						10.0,
 						10.0,
+						10.0,
 					],
 				},
 				{
-					label: 'Test + Rate Goal',
+					label: 'Test % Goal',
 					fill: false, // Don't fill area under the line
 					backgroundColor: 'green',
 					borderColor: 'green',
 					pointRadius: 1,
 					data: [
+						5.0,
 						5.0,
 						5.0,
 						5.0,
@@ -1004,7 +1016,7 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className="card-value pt-4">
-										<h1>114,704</h1>
+										<h1>123,319</h1>
 									</div>
 								</div>
 							</div>
@@ -1016,7 +1028,7 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className="card-value pt-4">
-										<h1>106,852</h1>
+										<h1>115,370</h1>
 									</div>
 								</div>
 							</div>
@@ -1028,7 +1040,7 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className="card-value pt-4">
-										<h1>7,879</h1>
+										<h1>7,997</h1>
 									</div>
 								</div>
 							</div>
@@ -1040,7 +1052,7 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className="card-value pt-4">
-										<h1>393</h1>
+										<h1>395</h1>
 									</div>
 								</div>
 							</div>
@@ -1105,7 +1117,7 @@ class NevadaPage extends Component {
 								<div className="card grid-card is-card-dark">
 									<div className="card-heading">
 										<div className="is-dark-text-light letter-spacing text-small">
-											NV Test Positivity Rate
+											NV % Positive Tests
 										</div>
 									</div>
 									<div className="card-value pt-4">
