@@ -102,6 +102,7 @@ class ClarkPage extends Component {
 				'5/26/20',
 				'5/27/20',
 				'5/28/20',
+				'5/29/20',
 			],
 			datasets: [
 				{
@@ -194,6 +195,7 @@ class ClarkPage extends Component {
 						6287,
 						6352,
 						6457,
+						6579,
 					],
 				},
 			],
@@ -287,6 +289,7 @@ class ClarkPage extends Component {
 				'5/26/20',
 				'5/27/20',
 				'5/28/20',
+				'5/29/20',
 			],
 			datasets: [
 				{
@@ -383,6 +386,7 @@ class ClarkPage extends Component {
 						94,
 						61,
 						63,
+						79,
 					],
 				},
 				{
@@ -475,6 +479,7 @@ class ClarkPage extends Component {
 						61,
 						65,
 						105,
+						122,
 					],
 				},
 			],
@@ -548,6 +553,7 @@ class ClarkPage extends Component {
 				'5/26/20',
 				'5/27/20',
 				'5/28/20',
+				'5/29/20',
 			],
 			datasets: [
 				{
@@ -620,6 +626,7 @@ class ClarkPage extends Component {
 						1533,
 						1545,
 						1553,
+						1563,
 					],
 				},
 			],
@@ -692,6 +699,7 @@ class ClarkPage extends Component {
 				'5/26/20',
 				'5/27/20',
 				'5/28/20',
+				'5/29/20',
 			],
 			datasets: [
 				{
@@ -764,6 +772,7 @@ class ClarkPage extends Component {
 						8,
 						12,
 						8,
+						10,
 					],
 				},
 			],
@@ -857,6 +866,7 @@ class ClarkPage extends Component {
 				'5/26/20',
 				'5/27/20',
 				'5/28/20',
+				'5/29/20',
 			],
 			datasets: [
 				{
@@ -948,6 +958,7 @@ class ClarkPage extends Component {
 						332,
 						339,
 						340,
+						340,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1030,6 +1041,7 @@ class ClarkPage extends Component {
 				'5/26/20',
 				'5/27/20',
 				'5/28/20',
+				'5/29/20',
 			],
 			datasets: [
 				{
@@ -1114,6 +1126,7 @@ class ClarkPage extends Component {
 						2,
 						2,
 						2,
+						2,
 					],
 				},
 				{
@@ -1194,6 +1207,7 @@ class ClarkPage extends Component {
 						3,
 						7,
 						1,
+						0,
 					],
 				},
 			],
@@ -1264,7 +1278,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className="card-value pt-4">
-											<h1>6,457</h1>
+											<h1>6,579</h1>
 										</div>
 									</div>
 								</div>
@@ -1276,7 +1290,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className="card-value pt-4">
-											<h1>1,553</h1>
+											<h1>1,563</h1>
 										</div>
 									</div>
 								</div>
@@ -1288,7 +1302,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className="card-value pt-4">
-											<h1>5,117</h1>
+											<h1>5,117**</h1>
 										</div>
 									</div>
 								</div>
@@ -1391,7 +1405,7 @@ class ClarkPage extends Component {
 										<div className="chart-container large">
 											<div className="card-heading">
 												<div className="is-dark-text-light letter-spacing text-small">
-													Clark County Age of Cases
+													Clark County Age of Cases**
 												</div>
 											</div>
 											<div className="card-value pt-4">
@@ -1406,7 +1420,7 @@ class ClarkPage extends Component {
 										<div className="chart-container large">
 											<div className="card-heading">
 												<div className="is-dark-text-light letter-spacing text-small">
-													Clark County Gender of Cases
+													Clark County Gender of Cases**
 												</div>
 											</div>
 											<div className="card-value pt-4">
@@ -1464,6 +1478,8 @@ class ClarkPage extends Component {
 									<br />
 									Due to limited weekend reporting counts may be artificially
 									low Saturday - Monday.
+									<br />
+									** No data today
 								</em>
 							</p>
 							<h3>Nevada Data Sources:</h3>
