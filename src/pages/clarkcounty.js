@@ -1218,7 +1218,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Age of Cases',
-					data: [67, 238, 453, 2729, 1641, 1326],
+					data: [69, 242, 468, 2785, 1667, 1345],
 					backgroundColor: [
 						'rgb(54, 162, 235)', //blue
 						'rgb(255, 99, 132)', //salmon
@@ -1236,7 +1236,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Sex',
-					data: [3292, 3076, 89],
+					data: [3352, 3135, 92],
 					backgroundColor: [
 						'rgb(255, 99, 132)',
 						'rgb(54, 162, 235)',
@@ -1302,7 +1302,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className="card-value pt-4">
-											<h1>5,117**</h1>
+											<h1>5,200</h1>
 										</div>
 									</div>
 								</div>
@@ -1405,7 +1405,7 @@ class ClarkPage extends Component {
 										<div className="chart-container large">
 											<div className="card-heading">
 												<div className="is-dark-text-light letter-spacing text-small">
-													Clark County Age of Cases**
+													Clark County Age of Cases
 												</div>
 											</div>
 											<div className="card-value pt-4">
@@ -1420,7 +1420,7 @@ class ClarkPage extends Component {
 										<div className="chart-container large">
 											<div className="card-heading">
 												<div className="is-dark-text-light letter-spacing text-small">
-													Clark County Gender of Cases**
+													Clark County Gender of Cases
 												</div>
 											</div>
 											<div className="card-value pt-4">
