@@ -101,6 +101,7 @@ class NevadaPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -196,6 +197,7 @@ class NevadaPage extends Component {
 						8593,
 						8688,
 						8830,
+						8931,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Line color
@@ -294,6 +296,7 @@ class NevadaPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -394,6 +397,7 @@ class NevadaPage extends Component {
 						119,
 						115,
 						124,
+						116,
 					],
 				},
 				{
@@ -490,6 +494,7 @@ class NevadaPage extends Component {
 						98,
 						95,
 						142,
+						101,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Bar color
@@ -588,6 +593,7 @@ class NevadaPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -639,50 +645,51 @@ class NevadaPage extends Component {
 						159,
 						163,
 						169,
-						173,
+						172,
 						180,
 						193,
-						202,
-						211,
+						201,
+						210,
 						216,
 						229,
-						236,
-						246,
-						252,
-						258,
-						269,
-						276,
-						281,
-						287,
-						292,
-						297,
-						310,
-						319,
-						327,
-						333,
-						336,
-						341,
+						235,
+						245,
+						251,
+						257,
+						268,
+						275,
+						280,
+						286,
+						291,
+						296,
+						309,
+						318,
+						326,
+						332,
+						337,
+						342,
 						348,
 						354,
-						358,
+						357,
+						367,
 						368,
-						369,
-						375,
-						382,
-						389,
-						391,
-						395,
-						398,
-						401,
+						374,
+						381,
+						388,
+						390,
+						394,
+						397,
+						400,
 						406,
-						408,
-						410,
-						413,
+						407,
+						409,
+						412,
 						417,
-						420,
-						420,
-						420,
-						420,
+						425,
+						426,
+						428,
+						429,
+						429,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -769,6 +776,7 @@ class NevadaPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -820,8 +828,8 @@ class NevadaPage extends Component {
 						8,
 						9,
 						10,
+						8,
 						9,
-						9,
 						8,
 						8,
 						8,
@@ -835,28 +843,29 @@ class NevadaPage extends Component {
 						8,
 						8,
 						8,
-						6,
-						6,
-						5,
-						5,
+						7,
 						6,
 						6,
 						5,
 						6,
+						5,
+						5,
+						5,
 						6,
 						5,
 						5,
 						5,
 						4,
+						4,
 						3,
 						3,
 						3,
 						3,
-						3,
+						4,
+						4,
+						4,
 						3,
 						2,
-						2,
-						1,
 					],
 				},
 				{
@@ -897,14 +906,14 @@ class NevadaPage extends Component {
 						8,
 						4,
 						6,
-						4,
-						7,
+						3,
+						8,
 						13,
+						8,
 						9,
-						9,
-						5,
+						6,
 						13,
-						7,
+						6,
 						10,
 						6,
 						6,
@@ -918,11 +927,11 @@ class NevadaPage extends Component {
 						9,
 						8,
 						6,
-						3,
 						5,
-						7,
+						5,
 						6,
-						4,
+						6,
+						3,
 						10,
 						1,
 						6,
@@ -932,14 +941,15 @@ class NevadaPage extends Component {
 						4,
 						3,
 						3,
+						6,
+						1,
+						2,
+						3,
 						5,
+						8,
+						1,
 						2,
-						2,
-						3,
-						4,
-						3,
-						0,
-						0,
+						1,
 						0,
 					],
 				},
@@ -1018,6 +1028,7 @@ class NevadaPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -1096,6 +1107,7 @@ class NevadaPage extends Component {
 						6.0,
 						5.9,
 						5.8,
+						5.7,
 					],
 				},
 				{
@@ -1105,6 +1117,7 @@ class NevadaPage extends Component {
 					borderColor: '#933A16',
 					pointRadius: 1,
 					data: [
+						10.0,
 						10.0,
 						10.0,
 						10.0,
@@ -1254,146 +1267,147 @@ class NevadaPage extends Component {
 						5.0,
 						5.0,
 						5.0,
+						5.0,
 					],
 				},
 			],
 		};
 
 		return (
-			<Layout pageName="nevada">
+			<Layout pageName='nevada'>
 				<Helmet>
 					<title>Nevada Stats</title>
 				</Helmet>
 
 				{/* content area start */}
 				<Container
-					type="content"
-					className="text-center container-fluid pr-3 pl-3 pt-3 pb-3"
+					type='content'
+					className='text-center container-fluid pr-3 pl-3 pt-3 pb-3'
 				>
-					<article className="canvas-container">
+					<article className='canvas-container'>
 						<div>
-							<h2 className="is-dark-text-light">Nevada</h2>
-							<h5 className="is-dark-text-light">
+							<h2 className='is-dark-text-light'>Nevada</h2>
+							<h5 className='is-dark-text-light'>
 								<em>NOTE: Nevada Data Is One Day Old</em>
 							</h5>
-							<p className="is-dark-text-light">
+							<p className='is-dark-text-light'>
 								<em>Hover over colored bars/lines to see numbers.</em>
 							</p>
 						</div>
-						<div className="row">
-							<div className="col-lg-3 col-md-6">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-mdall">
+						<div className='row'>
+							<div className='col-lg-3 col-md-6'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-mdall'>
 											People Tested
 										</div>
 									</div>
-									<div className="card-value pt-4">
-										<h1>151,966</h1>
+									<div className='card-value pt-4'>
+										<h1>156,147</h1>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-3 col-sm-6">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
+							<div className='col-lg-3 col-sm-6'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
 											Tested Negative
 										</div>
 									</div>
-									<div className="card-value pt-4">
-										<h1>143,261</h1>
+									<div className='card-value pt-4'>
+										<h1>147,320</h1>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-3 col-md-6">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-mdall">
+							<div className='col-lg-3 col-md-6'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-mdall'>
 											Nevada Cases
 										</div>
 									</div>
-									<div className="card-value pt-4">
-										<h1>8,830</h1>
+									<div className='card-value pt-4'>
+										<h1>8,931</h1>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-3 col-md-6">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
+							<div className='col-lg-3 col-md-6'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
 											Nevada Deaths
 										</div>
 									</div>
-									<div className="card-value pt-4">
-										<h1>420</h1>
+									<div className='card-value pt-4'>
+										<h1>429</h1>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div className="row">
-							<div className="col-md-6 is-light-text mb-4">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
+						<div className='row'>
+							<div className='col-md-6 is-light-text mb-4'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
 											Nevada Cases
 										</div>
 									</div>
-									<div className="card-value pt-4">
+									<div className='card-value pt-4'>
 										<Bar data={data1} />
 									</div>
 								</div>
 							</div>
-							<div className="col-md-6 is-light-text mb-4">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
+							<div className='col-md-6 is-light-text mb-4'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
 											Nevada Daily Cases
 										</div>
 									</div>
-									<div className="card-value pt-4">
+									<div className='card-value pt-4'>
 										<Bar data={data1b} />
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div className="row">
-							<div className="col-md-6 is-light-text mb-4">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
+						<div className='row'>
+							<div className='col-md-6 is-light-text mb-4'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
 											Nevada Deaths - Date of Death
 										</div>
 									</div>
-									<div className="card-value pt-4">
+									<div className='card-value pt-4'>
 										<Bar data={data2} />
 									</div>
 								</div>
 							</div>
-							<div className="col-md-6 is-light-text mb-4">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
+							<div className='col-md-6 is-light-text mb-4'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
 											Nevada Daily Deaths
 										</div>
 									</div>
-									<div className="card-value pt-4">
+									<div className='card-value pt-4'>
 										<Bar data={data2b} />
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div className="row">
-							<div className="col-md-12 is-light-text mb-4">
-								<div className="card grid-card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
+						<div className='row'>
+							<div className='col-md-12 is-light-text mb-4'>
+								<div className='card grid-card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
 											NV % Positive Tests
 										</div>
 									</div>
-									<div className="card-value pt-4">
+									<div className='card-value pt-4'>
 										<Line data={data2c} />
 									</div>
 								</div>
@@ -1401,7 +1415,7 @@ class NevadaPage extends Component {
 						</div>
 
 						<div>
-							<p className="is-dark-text-light">
+							<p className='is-dark-text-light'>
 								<em>
 									*Information is based on current investigations and may not be
 									complete.
@@ -1413,17 +1427,17 @@ class NevadaPage extends Component {
 							<h3>Nevada Data Sources:</h3>
 							<p>
 								<a
-									target="_blank"
-									rel="noopener noreferrer"
-									href="https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9"
+									target='_blank'
+									rel='noopener noreferrer'
+									href='https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9'
 								>
 									Nevada DWWS
 								</a>
 								<br />
 								<a
-									target="_blank"
-									rel="noopener noreferrer"
-									href="https://www.southernnevadahealthdistrict.org/coronavirus"
+									target='_blank'
+									rel='noopener noreferrer'
+									href='https://www.southernnevadahealthdistrict.org/coronavirus'
 								>
 									SNHD
 								</a>

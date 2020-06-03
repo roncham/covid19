@@ -106,6 +106,7 @@ class ClarkPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -202,6 +203,7 @@ class ClarkPage extends Component {
 						6657,
 						6719,
 						6845,
+						6923,
 					],
 				},
 			],
@@ -299,6 +301,7 @@ class ClarkPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -399,6 +402,7 @@ class ClarkPage extends Component {
 						86,
 						86,
 						99,
+						93,
 					],
 				},
 				{
@@ -495,6 +499,7 @@ class ClarkPage extends Component {
 						78,
 						62,
 						126,
+						78,
 					],
 				},
 			],
@@ -572,6 +577,7 @@ class ClarkPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -648,6 +654,7 @@ class ClarkPage extends Component {
 						1565,
 						1565,
 						1582,
+						1596,
 					],
 				},
 			],
@@ -724,6 +731,7 @@ class ClarkPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -800,6 +808,7 @@ class ClarkPage extends Component {
 						2,
 						0,
 						17,
+						14,
 					],
 				},
 			],
@@ -897,6 +906,7 @@ class ClarkPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -992,6 +1002,7 @@ class ClarkPage extends Component {
 						340,
 						343,
 						346,
+						355,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1078,6 +1089,7 @@ class ClarkPage extends Component {
 				'5/30/20',
 				'5/31/20',
 				'6/01/20',
+				'6/02/20',
 			],
 			datasets: [
 				{
@@ -1166,6 +1178,7 @@ class ClarkPage extends Component {
 						2,
 						2,
 						1,
+						3,
 					],
 				},
 				{
@@ -1250,6 +1263,7 @@ class ClarkPage extends Component {
 						0,
 						3,
 						3,
+						9,
 					],
 				},
 			],
@@ -1260,7 +1274,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Age of Cases',
-					data: [77, 262, 501, 2914, 1714, 1374],
+					data: [78, 266, 509, 2954, 1734, 1379],
 					backgroundColor: [
 						'rgb(54, 162, 235)', //blue
 						'rgb(255, 99, 132)', //salmon
@@ -1278,7 +1292,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Sex',
-					data: [3501, 3251, 93],
+					data: [3551, 3276, 96],
 					backgroundColor: [
 						'rgb(255, 99, 132)',
 						'rgb(54, 162, 235)',
@@ -1289,183 +1303,183 @@ class ClarkPage extends Component {
 		};
 
 		return (
-			<Layout pageName="nevada">
+			<Layout pageName='nevada'>
 				<Helmet>
 					<title>Clark County NV Stats</title>
 				</Helmet>
 
 				{/* content area start */}
 				<Container
-					type="content"
-					className="text-center container-fluid pr-3 pl-3 pt-3 pb-3"
+					type='content'
+					className='text-center container-fluid pr-3 pl-3 pt-3 pb-3'
 				>
-					<article className="canvas-container">
+					<article className='canvas-container'>
 						<div>
-							<h2 className="is-dark-text-light">Clark County Nevada</h2>
-							<h5 className="is-dark-text-light">
+							<h2 className='is-dark-text-light'>Clark County Nevada</h2>
+							<h5 className='is-dark-text-light'>
 								<em>NOTE: Clark County Nevada Data Is One Day Old</em>
 							</h5>
-							<p className="is-dark-text-light">
+							<p className='is-dark-text-light'>
 								<em>Hover over colored bars/sections to see numbers.</em>
 							</p>
 						</div>
 						<div>
-							<h2 className="is-dark-text-light">Clark County NV</h2>
-							<div className="row">
-								<div className="col-lg-3 col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+							<h2 className='is-dark-text-light'>Clark County NV</h2>
+							<div className='row'>
+								<div className='col-lg-3 col-md-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark County Cases
 											</div>
 										</div>
-										<div className="card-value pt-4">
-											<h1>6,845</h1>
+										<div className='card-value pt-4'>
+											<h1>6,923</h1>
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-3 col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+								<div className='col-lg-3 col-md-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark Co Hospitalized
 											</div>
 										</div>
-										<div className="card-value pt-4">
-											<h1>1,582</h1>
+										<div className='card-value pt-4'>
+											<h1>1,596</h1>
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-3 col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+								<div className='col-lg-3 col-md-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark Co Recovered
 											</div>
 										</div>
-										<div className="card-value pt-4">
-											<h1>5,390</h1>
+										<div className='card-value pt-4'>
+											<h1>5,461</h1>
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-3 col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+								<div className='col-lg-3 col-md-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark County Deaths
 											</div>
 										</div>
-										<div className="card-value pt-4">
-											<h1>346</h1>
+										<div className='card-value pt-4'>
+											<h1>355</h1>
 										</div>
 									</div>
 								</div>
 							</div>
 
-							<div className="row">
-								<div className="col-lg-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+							<div className='row'>
+								<div className='col-lg-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark County Cases
 											</div>
 										</div>
-										<div className="card-value pt-4">
+										<div className='card-value pt-4'>
 											<Bar data={data3a} />
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+								<div className='col-lg-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												CC Daily Cases - Date Reported
 											</div>
 										</div>
-										<div className="card-value pt-4">
+										<div className='card-value pt-4'>
 											<Bar data={data3a2} />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="row">
-								<div className="col-lg-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+							<div className='row'>
+								<div className='col-lg-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark County Hospitalized
 											</div>
 										</div>
-										<div className="card-value pt-4">
+										<div className='card-value pt-4'>
 											<Bar data={data3} />
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+								<div className='col-lg-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												CC Increase of Hospitalized
 											</div>
 										</div>
-										<div className="card-value pt-4">
+										<div className='card-value pt-4'>
 											<Bar data={data3b} />
 										</div>
 									</div>
 								</div>
 							</div>
 
-							<div className="row">
-								<div className="col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+							<div className='row'>
+								<div className='col-md-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark County Deaths - Date Reported
 											</div>
 										</div>
-										<div className="card-value pt-4">
+										<div className='card-value pt-4'>
 											<Bar data={data4} />
 										</div>
 									</div>
 								</div>
-								<div className="col-md-6 is-light-text mb-4">
-									<div className="card grid-card is-card-dark">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+								<div className='col-md-6 is-light-text mb-4'>
+									<div className='card grid-card is-card-dark'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark County Daily Deaths
 											</div>
 										</div>
-										<div className="card-value pt-4">
+										<div className='card-value pt-4'>
 											<Bar data={data4b} />
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="row">
-								<div className="col-md-6 mb-4">
-									<div className="card is-card-dark chart-card">
-										<div className="chart-container large">
-											<div className="card-heading">
-												<div className="is-dark-text-light letter-spacing text-small">
+							<div className='row'>
+								<div className='col-md-6 mb-4'>
+									<div className='card is-card-dark chart-card'>
+										<div className='chart-container large'>
+											<div className='card-heading'>
+												<div className='is-dark-text-light letter-spacing text-small'>
 													Clark County Age of Cases
 												</div>
 											</div>
-											<div className="card-value pt-4">
+											<div className='card-value pt-4'>
 												<Bar data={data5} />
 											</div>
 										</div>
 									</div>
 								</div>
 
-								<div className="col-md-6 mb-4">
-									<div className="card is-card-dark chart-card">
-										<div className="chart-container large">
-											<div className="card-heading">
-												<div className="is-dark-text-light letter-spacing text-small">
+								<div className='col-md-6 mb-4'>
+									<div className='card is-card-dark chart-card'>
+										<div className='chart-container large'>
+											<div className='card-heading'>
+												<div className='is-dark-text-light letter-spacing text-small'>
 													Clark County Gender of Cases
 												</div>
 											</div>
-											<div className="card-value pt-4">
+											<div className='card-value pt-4'>
 												<Doughnut data={data6} />
 											</div>
 										</div>
@@ -1474,37 +1488,37 @@ class ClarkPage extends Component {
 							</div>
 						</div>
 
-						<div className="row">
-							<div className="col-md-6 mb-4">
-								<div className="card is-card-dark">
-									<div className="card-heading">
-										<div className="is-dark-text-light letter-spacing text-small">
+						<div className='row'>
+							<div className='col-md-6 mb-4'>
+								<div className='card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
 											Clark County Cases By City
 										</div>
 									</div>
-									<div className="card-value pt-4">
+									<div className='card-value pt-4'>
 										<img
 											src={clarkCity}
-											className="img-fluid"
-											alt="Covid-19 in Clark Co Cities"
+											className='img-fluid'
+											alt='Covid-19 in Clark Co Cities'
 										/>
 									</div>
 								</div>
 							</div>
 
-							<div className="col-md-6 mb-4">
-								<div className="card is-card-dark chart-card">
-									<div className="chart-container large">
-										<div className="card-heading">
-											<div className="is-dark-text-light letter-spacing text-small">
+							<div className='col-md-6 mb-4'>
+								<div className='card is-card-dark chart-card'>
+									<div className='chart-container large'>
+										<div className='card-heading'>
+											<div className='is-dark-text-light letter-spacing text-small'>
 												Clark County Cases By Zip
 											</div>
 										</div>
-										<div className="card-value pt-4">
+										<div className='card-value pt-4'>
 											<img
 												src={clarkZip}
-												className="img-fluid"
-												alt="Covid-19 in Clark Co by zip code"
+												className='img-fluid'
+												alt='Covid-19 in Clark Co by zip code'
 											/>
 										</div>
 									</div>
@@ -1513,7 +1527,7 @@ class ClarkPage extends Component {
 						</div>
 
 						<div>
-							<p className="is-dark-text-light">
+							<p className='is-dark-text-light'>
 								<em>
 									*Information is based on current investigations and may not be
 									complete.
@@ -1527,17 +1541,17 @@ class ClarkPage extends Component {
 							<h3>Nevada Data Sources:</h3>
 							<p>
 								<a
-									target="_blank"
-									rel="noopener noreferrer"
-									href="https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9"
+									target='_blank'
+									rel='noopener noreferrer'
+									href='https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9'
 								>
 									Nevada DWWS
 								</a>
 								<br />
 								<a
-									target="_blank"
-									rel="noopener noreferrer"
-									href="https://www.southernnevadahealthdistrict.org/coronavirus"
+									target='_blank'
+									rel='noopener noreferrer'
+									href='https://www.southernnevadahealthdistrict.org/coronavirus'
 								>
 									SNHD
 								</a>
