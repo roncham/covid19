@@ -7,23 +7,31 @@ import StatesList from '../models/usList';
 
 const USStatesPage = () => {
 	return (
-		<Layout pageName="us-states">
+		<Layout pageName='us-states'>
 			<Helmet>
 				<title>US States</title>
 			</Helmet>
-			<Container type="content" className="pr-3 pl-3 pt-3 pb-3">
-				<h2 className="is-dark-text-light">US States</h2>
+			<Container type='content' className='pr-3 pl-3 pt-3 pb-3'>
+				<h2 className='is-dark-text-light'>US States</h2>
 
-				<div className="col-xs-12 is-light-text mb-4">
+				<div className='col-xs-12 is-light-text mb-4'>
+					<iframe
+						className='usaiframe'
+						src='https://static.usafacts.org/public/2020/coronavirus-timeline/county-embed.html'
+						width='100%'
+					></iframe>
+				</div>
+
+				<div className='col-xs-12 is-light-text mb-4'>
 					<div>
-						<table className="table table-dark table-striped">
+						<table className='table table-dark table-striped'>
 							<thead>
 								<tr>
-									<th scope="col">State</th>
-									<th scope="col">Cases</th>
-									<th scope="col">Deaths</th>
-									<th scope="col">Active</th>
-									<th scope="col">Tests</th>
+									<th scope='col'>State</th>
+									<th scope='col'>Cases</th>
+									<th scope='col'>Deaths</th>
+									<th scope='col'>Active</th>
+									<th scope='col'>Tests</th>
 								</tr>
 							</thead>
 							<tbody>
