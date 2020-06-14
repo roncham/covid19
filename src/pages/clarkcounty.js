@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
-import { Bar, Doughnut, defaults } from 'react-chartjs-2';
+import { Bar, Line, Doughnut, defaults } from 'react-chartjs-2';
 
 // @ts-ignore
 import clarkCity from '../assets/images/Clark-by-City.png';
@@ -1849,7 +1849,7 @@ class ClarkPage extends Component {
 												</div>
 											</div>
 											<div className='card-value pt-4'>
-												<Bar data={data4c} />
+												<Line data={data4c} />
 											</div>
 										</div>
 									</div>
