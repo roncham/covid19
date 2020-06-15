@@ -118,6 +118,7 @@ class ClarkPage extends Component {
 				'6/11/20',
 				'6/12/20',
 				'6/13/20',
+				'6/14/20',
 			],
 			datasets: [
 				{
@@ -226,6 +227,7 @@ class ClarkPage extends Component {
 						8314,
 						8556,
 						8735,
+						8815,
 					],
 				},
 			],
@@ -335,6 +337,7 @@ class ClarkPage extends Component {
 				'6/11/20',
 				'6/12/20',
 				'6/13/20',
+				'6/14/20',
 			],
 			datasets: [
 				{
@@ -443,6 +446,7 @@ class ClarkPage extends Component {
 						214,
 						242,
 						179,
+						80,
 					],
 				},
 			],
@@ -532,6 +536,7 @@ class ClarkPage extends Component {
 				'6/11/20',
 				'6/12/20',
 				'6/13/20',
+				'6/14/20',
 			],
 			datasets: [
 				{
@@ -620,6 +625,7 @@ class ClarkPage extends Component {
 						1717,
 						1734,
 						1734,
+						1738,
 					],
 				},
 			],
@@ -708,6 +714,7 @@ class ClarkPage extends Component {
 				'6/11/20',
 				'6/12/20',
 				'6/13/20',
+				'6/14/20',
 			],
 			datasets: [
 				{
@@ -796,6 +803,7 @@ class ClarkPage extends Component {
 						14,
 						17,
 						0,
+						4,
 					],
 				},
 			],
@@ -905,6 +913,7 @@ class ClarkPage extends Component {
 				'6/11/20',
 				'6/12/20',
 				'6/13/20',
+				'6/14/20',
 			],
 			datasets: [
 				{
@@ -1012,6 +1021,7 @@ class ClarkPage extends Component {
 						377,
 						377,
 						378,
+						379,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1110,6 +1120,7 @@ class ClarkPage extends Component {
 				'6/11/20',
 				'6/12/20',
 				'6/13/20',
+				'6/14/20',
 			],
 			datasets: [
 				{
@@ -1205,6 +1216,7 @@ class ClarkPage extends Component {
 						8,
 						2,
 						0,
+						1,
 						1,
 					],
 				},
@@ -1315,6 +1327,7 @@ class ClarkPage extends Component {
 				'6/11/20',
 				'6/12/20',
 				'6/13/20',
+				'6/14/20',
 			],
 			datasets: [
 				{
@@ -1425,6 +1438,7 @@ class ClarkPage extends Component {
 						7.2,
 						7.2,
 						7.3,
+						7.5,
 					],
 				},
 				{
@@ -1500,6 +1514,7 @@ class ClarkPage extends Component {
 						null,
 						null,
 						null,
+						6.9,
 						6.9,
 						6.9,
 						6.9,
@@ -1648,6 +1663,7 @@ class ClarkPage extends Component {
 						4.8,
 						4.8,
 						4.8,
+						4.8,
 					],
 				},
 			],
@@ -1658,7 +1674,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Age of Cases',
-					data: [134, 425, 770, 3820, 2055, 1529],
+					data: [135, 432, 781, 3860, 2066, 1539],
 					backgroundColor: [
 						'rgb(54, 162, 235)', //blue
 						'rgb(255, 99, 132)', //salmon
@@ -1676,7 +1692,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Sex',
-					data: [4488, 4148, 99],
+					data: [4534, 4181, 100],
 					backgroundColor: [
 						'rgb(255, 99, 132)',
 						'rgb(54, 162, 235)',
@@ -1718,7 +1734,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>8,735</h1>
+											<h1>8,815</h1>
 										</div>
 									</div>
 								</div>
@@ -1730,7 +1746,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>1,734</h1>
+											<h1>1,738</h1>
 										</div>
 									</div>
 								</div>
@@ -1742,7 +1758,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>6,571</h1>
+											<h1>6,626</h1>
 										</div>
 									</div>
 								</div>
@@ -1754,7 +1770,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>378</h1>
+											<h1>379</h1>
 										</div>
 									</div>
 								</div>
@@ -1847,6 +1863,8 @@ class ClarkPage extends Component {
 											<div className='card-heading'>
 												<div className='is-dark-text-light letter-spacing text-small'>
 													Clark County % of Positive Tests
+													<br />
+													7-Day Moving Average
 												</div>
 											</div>
 											<div className='card-value pt-4'>
