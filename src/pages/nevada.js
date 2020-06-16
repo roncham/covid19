@@ -962,7 +962,7 @@ class NevadaPage extends Component {
 						8.1,
 						8.9,
 						9.5,
-						10.4,
+						10.0,
 						10.4,
 						10.4,
 						10.8,

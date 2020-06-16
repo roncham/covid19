@@ -1370,7 +1370,7 @@ class ClarkPage extends Component {
 						17.5,
 						16.8,
 						15.9,
-						14.8,
+						15.6,
 						16.3,
 						16.5,
 						16.9,
