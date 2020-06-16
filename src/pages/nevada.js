@@ -1133,7 +1133,7 @@ class NevadaPage extends Component {
 					],
 				},
 				{
-					label: 'Stage-2 Opened 6/4/20',
+					label: 'Stage-2 Opened 5/30/20',
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16',
 					borderColor: '#933A16',
