@@ -673,6 +673,7 @@ class ClarkPage extends Component {
 						1832,
 						1838,
 						1840,
+						1868,
 					],
 				},
 			],
@@ -866,6 +867,7 @@ class ClarkPage extends Component {
 						19,
 						6,
 						2,
+						28,
 					],
 				},
 			],
@@ -1543,10 +1545,11 @@ class ClarkPage extends Component {
 						7.8,
 						8.4,
 						9.2,
+						9.3,
+						9.3,
+						9.6,
+						9.5,
 						9.2,
-						9.1,
-						9.3,
-						9.3,
 					],
 				},
 				{
@@ -1798,7 +1801,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Age of Cases',
-					data: [178, 610, 1087, 4849, 2378, 1669],
+					data: [192, 653, 1144, 5048, 2440, 1706],
 					backgroundColor: [
 						'rgb(54, 162, 235)', //blue
 						'rgb(255, 99, 132)', //salmon
@@ -1816,7 +1819,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Sex',
-					data: [5555, 5104, 115],
+					data: [5765, 5304, 117],
 					backgroundColor: [
 						'rgb(255, 99, 132)',
 						'rgb(54, 162, 235)',
@@ -1870,7 +1873,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>1,840**</h1>
+											<h1>1,868</h1>
 										</div>
 									</div>
 								</div>
@@ -1882,7 +1885,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>71.3%**</h1>
+											<h1>70.5%</h1>
 										</div>
 									</div>
 								</div>
@@ -1931,7 +1934,7 @@ class ClarkPage extends Component {
 									<div className='card grid-card is-card-dark'>
 										<div className='card-heading'>
 											<div className='is-dark-text-light letter-spacing text-small'>
-												Clark County Hospitalized**
+												Clark County Hospitalized
 											</div>
 										</div>
 										<div className='card-value pt-4'>
@@ -1943,7 +1946,7 @@ class ClarkPage extends Component {
 									<div className='card grid-card is-card-dark'>
 										<div className='card-heading'>
 											<div className='is-dark-text-light letter-spacing text-small'>
-												CC Increase of Hospitalized**
+												CC Increase of Hospitalized
 											</div>
 										</div>
 										<div className='card-value pt-4'>
@@ -1986,7 +1989,7 @@ class ClarkPage extends Component {
 										<div className='chart-container large'>
 											<div className='card-heading'>
 												<div className='is-dark-text-light letter-spacing text-small'>
-													Clark County % of Positive Tests**
+													Clark County % of Positive Tests
 													<br />
 													7-Day Moving Average
 												</div>
@@ -2005,7 +2008,7 @@ class ClarkPage extends Component {
 										<div className='chart-container large'>
 											<div className='card-heading'>
 												<div className='is-dark-text-light letter-spacing text-small'>
-													Clark County Age of Cases**
+													Clark County Age of Cases
 												</div>
 											</div>
 											<div className='card-value pt-4'>
@@ -2020,7 +2023,7 @@ class ClarkPage extends Component {
 										<div className='chart-container large'>
 											<div className='card-heading'>
 												<div className='is-dark-text-light letter-spacing text-small'>
-													Clark County Gender of Cases**
+													Clark County Gender of Cases
 												</div>
 											</div>
 											<div className='card-value pt-4'>
@@ -2037,7 +2040,7 @@ class ClarkPage extends Component {
 								<div className='card is-card-dark'>
 									<div className='card-heading'>
 										<div className='is-dark-text-light letter-spacing text-small'>
-											Clark County Cases By City**
+											Clark County Cases By City
 										</div>
 									</div>
 									<div className='card-value pt-4'>
@@ -2055,7 +2058,7 @@ class ClarkPage extends Component {
 									<div className='chart-container large'>
 										<div className='card-heading'>
 											<div className='is-dark-text-light letter-spacing text-small'>
-												Clark County Cases By Zip**
+												Clark County Cases By Zip
 											</div>
 										</div>
 										<div className='card-value pt-4'>
