@@ -149,6 +149,7 @@ class ClarkPage extends Component {
 				'7/12/20',
 				'7/13/20',
 				'7/14/20',
+				'7/15/20',
 			],
 			datasets: [
 				{
@@ -288,6 +289,7 @@ class ClarkPage extends Component {
 						23803,
 						24824,
 						25611,
+						26926,
 					],
 				},
 			],
@@ -428,6 +430,7 @@ class ClarkPage extends Component {
 				'7/12/20',
 				'7/13/20',
 				'7/14/20',
+				'7/15/20',
 			],
 			datasets: [
 				{
@@ -567,6 +570,7 @@ class ClarkPage extends Component {
 						755,
 						1021,
 						787,
+						1315,
 					],
 				},
 			],
@@ -687,6 +691,7 @@ class ClarkPage extends Component {
 				'7/12/20',
 				'7/13/20',
 				'7/14/20',
+				'7/15/20',
 			],
 			datasets: [
 				{
@@ -806,6 +811,7 @@ class ClarkPage extends Component {
 						2266,
 						2305,
 						2351,
+						2383,
 					],
 				},
 			],
@@ -925,6 +931,7 @@ class ClarkPage extends Component {
 				'7/12/20',
 				'7/13/20',
 				'7/14/20',
+				'7/15/20',
 			],
 			datasets: [
 				{
@@ -1044,6 +1051,7 @@ class ClarkPage extends Component {
 						0,
 						39,
 						46,
+						32,
 					],
 				},
 			],
@@ -1184,6 +1192,7 @@ class ClarkPage extends Component {
 				'7/12/20',
 				'7/13/20',
 				'7/14/20',
+				'7/15/20',
 			],
 			datasets: [
 				{
@@ -1322,6 +1331,7 @@ class ClarkPage extends Component {
 						483,
 						498,
 						502,
+						507,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1451,6 +1461,7 @@ class ClarkPage extends Component {
 				'7/12/20',
 				'7/13/20',
 				'7/14/20',
+				'7/15/20',
 			],
 			datasets: [
 				{
@@ -1578,6 +1589,7 @@ class ClarkPage extends Component {
 						0,
 						15,
 						4,
+						5,
 					],
 				},
 			],
@@ -1718,6 +1730,7 @@ class ClarkPage extends Component {
 				'7/12/20',
 				'7/13/20',
 				'7/14/20',
+				'7/15/20',
 			],
 			datasets: [
 				{
@@ -1842,21 +1855,22 @@ class ClarkPage extends Component {
 						12.0,
 						12.5,
 						12.8,
-						13.3,
-						13.3,
 						13.4,
 						13.4,
-						13.3,
+						13.4,
 						13.5,
-						14.3,
-						14.4,
-						14.4,
-						14.5,
+						13.4,
+						14.6,
+						14.7,
 						14.8,
-						14.9,
+						14.8,
+						15.2,
+						15.3,
+						15.2,
 						15.1,
-						17.8,
-						19.7,
+						16.0,
+						null,
+						null,
 						null,
 					],
 				},
@@ -1933,6 +1947,7 @@ class ClarkPage extends Component {
 						null,
 						null,
 						null,
+						6.9,
 						6.9,
 						6.9,
 						6.9,
@@ -2143,6 +2158,7 @@ class ClarkPage extends Component {
 						3.9,
 						3.9,
 						3.9,
+						3.9,
 					],
 				},
 			],
@@ -2153,7 +2169,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Age of Cases',
-					data: [459, 1690, 3148, 12387, 5127, 2777],
+					data: [481, 1798, 3327, 13045, 5375, 2877],
 					backgroundColor: [
 						'rgb(54, 162, 235)', //blue
 						'rgb(255, 99, 132)', //salmon
@@ -2171,7 +2187,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Sex',
-					data: [13057, 12331, 223],
+					data: [13706, 12944, 276],
 					backgroundColor: [
 						'rgb(255, 99, 132)',
 						'rgb(54, 162, 235)',
@@ -2213,7 +2229,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>25,611</h1>
+											<h1>26,926</h1>
 										</div>
 									</div>
 								</div>
@@ -2225,7 +2241,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>2,351</h1>
+											<h1>2,383</h1>
 										</div>
 									</div>
 								</div>
@@ -2237,7 +2253,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>68.3%</h1>
+											<h1>68.5%</h1>
 										</div>
 									</div>
 								</div>
@@ -2249,7 +2265,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>502</h1>
+											<h1>507</h1>
 										</div>
 									</div>
 								</div>
