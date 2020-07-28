@@ -2407,7 +2407,7 @@ class ClarkPage extends Component {
 										</div>
 										<div className='card-value pt-4'>
 											<h1>37,492</h1>
-											<h2>+ 899</h2>
+											<h2 className='is_salmon'>+ 899</h2>
 										</div>
 									</div>
 								</div>
@@ -2420,7 +2420,7 @@ class ClarkPage extends Component {
 										</div>
 										<div className='card-value pt-4'>
 											<h1>2,611</h1>
-											<h2>+ 9</h2>
+											<h2 className='is_salmon'>+ 9</h2>
 										</div>
 									</div>
 								</div>
@@ -2433,7 +2433,7 @@ class ClarkPage extends Component {
 										</div>
 										<div className='card-value pt-4'>
 											<h1>76.8%</h1>
-											<h2>- 0.8%</h2>
+											<h2 className='is_salmon'>- 0.8%</h2>
 										</div>
 									</div>
 								</div>
@@ -2446,7 +2446,7 @@ class ClarkPage extends Component {
 										</div>
 										<div className='card-value pt-4'>
 											<h1>605</h1>
-											<h2>+ 5</h2>
+											<h2 className='is_salmon'>+ 5</h2>
 										</div>
 									</div>
 								</div>

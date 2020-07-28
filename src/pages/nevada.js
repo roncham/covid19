@@ -1895,7 +1895,7 @@ class NevadaPage extends Component {
 									</div>
 									<div className='card-value pt-4'>
 										<h1>443,608</h1>
-										<h2>+ 5,800</h2>
+										<h2 className='is_salmon'>+ 5,800</h2>
 									</div>
 								</div>
 							</div>
@@ -1908,7 +1908,7 @@ class NevadaPage extends Component {
 									</div>
 									<div className='card-value pt-4'>
 										<h1>400,848</h1>
-										<h2>+ 4,760</h2>
+										<h2 className='is_salmon'>+ 4,760</h2>
 									</div>
 								</div>
 							</div>
@@ -1921,7 +1921,7 @@ class NevadaPage extends Component {
 									</div>
 									<div className='card-value pt-4'>
 										<h1>43,831</h1>
-										<h2>+ 997</h2>
+										<h2 className='is_salmon'>+ 997</h2>
 									</div>
 								</div>
 							</div>
@@ -1934,7 +1934,7 @@ class NevadaPage extends Component {
 									</div>
 									<div className='card-value pt-4'>
 										<h1>739</h1>
-										<h2>+ 0</h2>
+										<h2 className='is_salmon'>+ 0</h2>
 									</div>
 								</div>
 							</div>
