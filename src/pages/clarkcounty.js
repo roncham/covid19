@@ -172,6 +172,7 @@ class ClarkPage extends Component {
 				'8/04/20',
 				'8/05/20',
 				'8/06/20',
+				'8/07/20',
 			],
 			datasets: [
 				{
@@ -334,6 +335,7 @@ class ClarkPage extends Component {
 						45563,
 						46185,
 						46990,
+						47739,
 					],
 				},
 			],
@@ -497,6 +499,7 @@ class ClarkPage extends Component {
 				'8/04/20',
 				'8/05/20',
 				'8/06/20',
+				'8/07/20',
 			],
 			datasets: [
 				{
@@ -659,6 +662,7 @@ class ClarkPage extends Component {
 						566,
 						622,
 						805,
+						749,
 					],
 				},
 			],
@@ -802,6 +806,7 @@ class ClarkPage extends Component {
 				'8/04/20',
 				'8/05/20',
 				'8/06/20',
+				'8/07/20',
 			],
 			datasets: [
 				{
@@ -944,6 +949,7 @@ class ClarkPage extends Component {
 						2912,
 						3005,
 						3089,
+						3157,
 					],
 				},
 			],
@@ -1086,6 +1092,7 @@ class ClarkPage extends Component {
 				'8/04/20',
 				'8/05/20',
 				'8/06/20',
+				'8/07/20',
 			],
 			datasets: [
 				{
@@ -1228,6 +1235,7 @@ class ClarkPage extends Component {
 						71,
 						93,
 						84,
+						68,
 					],
 				},
 			],
@@ -1391,6 +1399,7 @@ class ClarkPage extends Component {
 				'8/04/20',
 				'8/05/20',
 				'8/06/20',
+				'8/07/20',
 			],
 			datasets: [
 				{
@@ -1552,6 +1561,7 @@ class ClarkPage extends Component {
 						743,
 						751,
 						770,
+						798,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1704,6 +1714,7 @@ class ClarkPage extends Component {
 				'8/04/20',
 				'8/05/20',
 				'8/06/20',
+				'8/07/20',
 			],
 			datasets: [
 				{
@@ -1854,6 +1865,7 @@ class ClarkPage extends Component {
 						27,
 						8,
 						19,
+						28,
 					],
 				},
 			],
@@ -2017,6 +2029,7 @@ class ClarkPage extends Component {
 				'8/04/20',
 				'8/05/20',
 				'8/06/20',
+				'8/07/20',
 			],
 			datasets: [
 				{
@@ -2178,6 +2191,7 @@ class ClarkPage extends Component {
 						16.6,
 						16.5,
 						16.1,
+						15.8,
 						null,
 						null,
 						null,
@@ -2256,6 +2270,7 @@ class ClarkPage extends Component {
 						null,
 						null,
 						null,
+						6.9,
 						6.9,
 						6.9,
 						6.9,
@@ -2512,6 +2527,7 @@ class ClarkPage extends Component {
 						3.9,
 						3.9,
 						3.9,
+						3.9,
 					],
 				},
 			],
@@ -2582,8 +2598,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>46,990</h1>
-											<h2 className='is_salmon'>+ 805</h2>
+											<h1>47,739</h1>
+											<h2 className='is_salmon'>+ 749</h2>
 										</div>
 									</div>
 								</div>
@@ -2595,8 +2611,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>3,089</h1>
-											<h2 className='is_salmon'>+ 84</h2>
+											<h1>3,157</h1>
+											<h2 className='is_salmon'>+ 68</h2>
 										</div>
 									</div>
 								</div>
@@ -2621,8 +2637,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>770</h1>
-											<h2 className='is_salmon'>+ 19</h2>
+											<h1>798</h1>
+											<h2 className='is_salmon'>+ 28</h2>
 										</div>
 									</div>
 								</div>
