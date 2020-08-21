@@ -184,6 +184,7 @@ class ClarkPage extends Component {
 				'8/16/20',
 				'8/17/20',
 				'8/18/20',
+				'8/19/20',
 			],
 			datasets: [
 				{
@@ -358,6 +359,7 @@ class ClarkPage extends Component {
 						53548,
 						54076,
 						54353,
+						54795,
 					],
 				},
 			],
@@ -533,6 +535,7 @@ class ClarkPage extends Component {
 				'8/16/20',
 				'8/17/20',
 				'8/18/20',
+				'8/19/20',
 			],
 			datasets: [
 				{
@@ -707,6 +710,7 @@ class ClarkPage extends Component {
 						681,
 						528,
 						277,
+						442,
 					],
 				},
 			],
@@ -862,6 +866,7 @@ class ClarkPage extends Component {
 				'8/16/20',
 				'8/17/20',
 				'8/18/20',
+				'8/19/20',
 			],
 			datasets: [
 				{
@@ -1016,6 +1021,7 @@ class ClarkPage extends Component {
 						3622,
 						3716,
 						3821,
+						3948,
 					],
 				},
 			],
@@ -1170,6 +1176,7 @@ class ClarkPage extends Component {
 				'8/16/20',
 				'8/17/20',
 				'8/18/20',
+				'8/19/20',
 			],
 			datasets: [
 				{
@@ -1324,6 +1331,7 @@ class ClarkPage extends Component {
 						8,
 						94,
 						105,
+						127,
 					],
 				},
 			],
@@ -1499,6 +1507,7 @@ class ClarkPage extends Component {
 				'8/16/20',
 				'8/17/20',
 				'8/18/20',
+				'8/19/20',
 			],
 			datasets: [
 				{
@@ -1672,6 +1681,7 @@ class ClarkPage extends Component {
 						913,
 						937,
 						969,
+						1006,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1836,6 +1846,7 @@ class ClarkPage extends Component {
 				'8/16/20',
 				'8/17/20',
 				'8/18/20',
+				'8/19/20',
 			],
 			datasets: [
 				{
@@ -1998,6 +2009,7 @@ class ClarkPage extends Component {
 						3,
 						24,
 						32,
+						37,
 					],
 				},
 			],
@@ -2173,6 +2185,7 @@ class ClarkPage extends Component {
 				'8/16/20',
 				'8/17/20',
 				'8/18/20',
+				'8/19/20',
 			],
 			datasets: [
 				{
@@ -2343,9 +2356,10 @@ class ClarkPage extends Component {
 						13.7,
 						14.0,
 						14.2,
+						14.1,
+						14.1,
 						14.2,
-						14.2,
-						14.4,
+						14.0,
 						null,
 						null,
 						null,
@@ -2424,6 +2438,7 @@ class ClarkPage extends Component {
 						null,
 						null,
 						null,
+						6.9,
 						6.9,
 						6.9,
 						6.9,
@@ -2704,6 +2719,7 @@ class ClarkPage extends Component {
 						3.9,
 						3.9,
 						3.9,
+						3.9,
 					],
 				},
 			],
@@ -2714,7 +2730,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Age of Cases',
-					data: [1058, 4061, 7003, 26292, 10516, 5405],
+					data: [1064, 4086, 7058, 26503, 10606, 5462],
 					backgroundColor: [
 						'rgb(54, 162, 235)', //blue
 						'rgb(255, 99, 132)', //salmon
@@ -2732,7 +2748,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Sex',
-					data: [27745, 26201, 407],
+					data: [27976, 26418, 401],
 					backgroundColor: [
 						'rgb(255, 99, 132)',
 						'rgb(54, 162, 235)',
@@ -2774,8 +2790,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>54,353</h1>
-											<h2 className='is_salmon'>+ 277</h2>
+											<h1>54,795</h1>
+											<h2 className='is_salmon'>+ 442</h2>
 										</div>
 									</div>
 								</div>
@@ -2787,8 +2803,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>3,821</h1>
-											<h2 className='is_salmon'>+ 105</h2>
+											<h1>3,948</h1>
+											<h2 className='is_salmon'>+ 127</h2>
 										</div>
 									</div>
 								</div>
@@ -2800,8 +2816,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>86.2%</h1>
-											<h2 className='is_salmon'>+ 0.8%</h2>
+											<h1>86.8%</h1>
+											<h2 className='is_salmon'>+ 0.6%</h2>
 										</div>
 									</div>
 								</div>
@@ -2813,8 +2829,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>969</h1>
-											<h2 className='is_salmon'>+ 32</h2>
+											<h1>1,006</h1>
+											<h2 className='is_salmon'>+ 37</h2>
 										</div>
 									</div>
 								</div>
