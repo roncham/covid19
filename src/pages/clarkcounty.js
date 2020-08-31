@@ -194,6 +194,7 @@ class ClarkPage extends Component {
 				'8/26/20',
 				'8/27/20',
 				'8/28/20',
+				'8/29/20',
 			],
 			datasets: [
 				{
@@ -563,6 +564,7 @@ class ClarkPage extends Component {
 				'8/26/20',
 				'8/27/20',
 				'8/28/20',
+				'8/29/20',
 			],
 			datasets: [
 				{
@@ -912,6 +914,7 @@ class ClarkPage extends Component {
 				'8/26/20',
 				'8/27/20',
 				'8/28/20',
+				'8/29/20',
 			],
 			datasets: [
 				{
@@ -1240,6 +1243,7 @@ class ClarkPage extends Component {
 				'8/26/20',
 				'8/27/20',
 				'8/28/20',
+				'8/29/20',
 			],
 			datasets: [
 				{
@@ -1589,6 +1593,7 @@ class ClarkPage extends Component {
 				'8/26/20',
 				'8/27/20',
 				'8/28/20',
+				'8/29/20',
 			],
 			datasets: [
 				{
@@ -1946,6 +1951,7 @@ class ClarkPage extends Component {
 				'8/26/20',
 				'8/27/20',
 				'8/28/20',
+				'8/29/20',
 			],
 			datasets: [
 				{
@@ -2303,6 +2309,7 @@ class ClarkPage extends Component {
 				'8/26/20',
 				'8/27/20',
 				'8/28/20',
+				'8/29/20',
 			],
 			datasets: [
 				{
@@ -2676,6 +2683,7 @@ class ClarkPage extends Component {
 						6.9,
 						6.9,
 						6.9,
+						6.9,
 					],
 				},
 				{
@@ -2773,6 +2781,7 @@ class ClarkPage extends Component {
 						null,
 						null,
 						null,
+						3.9,
 						3.9,
 						3.9,
 						3.9,
