@@ -193,6 +193,7 @@ class NevadaPage extends Component {
 				'8/30/20',
 				'8/31/20',
 				'9/01/20',
+				'9/02/20',
 			],
 			datasets: [
 				{
@@ -380,6 +381,7 @@ class NevadaPage extends Component {
 						69228,
 						69633,
 						69872,
+						70223,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Line color
@@ -570,6 +572,7 @@ class NevadaPage extends Component {
 				'8/30/20',
 				'8/31/20',
 				'9/01/20',
+				'9/02/20',
 			],
 			datasets: [
 				{
@@ -758,6 +761,7 @@ class NevadaPage extends Component {
 						320,
 						405,
 						239,
+						351,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Bar color
@@ -948,6 +952,7 @@ class NevadaPage extends Component {
 				'8/30/20',
 				'8/31/20',
 				'9/01/20',
+				'9/02/20',
 			],
 			datasets: [
 				{
@@ -1095,46 +1100,47 @@ class NevadaPage extends Component {
 						770,
 						781,
 						793,
-						807,
+						808,
 						817,
-						834,
-						849,
-						857,
+						835,
+						850,
+						858,
 						878,
-						889,
-						905,
-						925,
-						941,
-						953,
-						971,
-						997,
-						1021,
-						1038,
-						1058,
-						1078,
-						1092,
-						1115,
-						1129,
-						1143,
-						1157,
-						1179,
-						1191,
-						1206,
-						1218,
-						1226,
-						1239,
-						1250,
-						1268,
-						1273,
-						1288,
-						1297,
-						1307,
-						1317,
-						1323,
+						890,
+						906,
+						926,
+						942,
+						954,
+						972,
+						998,
+						1022,
+						1039,
+						1059,
+						1079,
+						1093,
+						1116,
+						1130,
+						1144,
+						1159,
+						1181,
+						1193,
+						1208,
+						1220,
+						1229,
+						1243,
+						1255,
+						1272,
+						1278,
+						1294,
+						1305,
+						1316,
 						1326,
-						1332,
-						1335,
-						1335,
+						1333,
+						1340,
+						1346,
+						1353,
+						1355,
+						1358,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1313,6 +1319,7 @@ class NevadaPage extends Component {
 				'8/30/20',
 				'8/31/20',
 				'9/01/20',
+				'9/02/20',
 			],
 			datasets: [
 				{
@@ -1449,13 +1456,13 @@ class NevadaPage extends Component {
 						18,
 						11,
 						12,
-						14,
-						10,
-						17,
+						15,
+						9,
+						18,
 						15,
 						8,
-						21,
-						11,
+						20,
+						12,
 						16,
 						20,
 						16,
@@ -1470,25 +1477,26 @@ class NevadaPage extends Component {
 						23,
 						14,
 						14,
-						14,
+						15,
 						22,
 						12,
 						15,
 						12,
-						8,
-						13,
-						11,
-						18,
-						5,
-						15,
 						9,
-						10,
-						10,
+						14,
+						12,
+						17,
 						6,
-						3,
+						16,
+						11,
+						11,
+						10,
+						7,
+						7,
 						6,
+						7,
+						2,
 						3,
-						0,
 					],
 				},
 			],
@@ -1658,6 +1666,7 @@ class NevadaPage extends Component {
 				'8/30/20',
 				'8/31/20',
 				'9/01/20',
+				'9/02/20',
 			],
 			datasets: [
 				{
@@ -1996,8 +2005,9 @@ class NevadaPage extends Component {
 						11.0,
 						10.8,
 						10.5,
-						10.1,
-						10.1,
+						9.9,
+						9.8,
+						9.2,
 						null,
 					],
 				},
@@ -2054,6 +2064,7 @@ class NevadaPage extends Component {
 						null,
 						null,
 						null,
+						10.4,
 						10.4,
 						10.4,
 						10.4,
@@ -2341,6 +2352,7 @@ class NevadaPage extends Component {
 						6.0,
 						6.0,
 						6.0,
+						6.0,
 					],
 				},
 			],
@@ -2376,8 +2388,8 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className='card-value pt-4'>
-										<h1>601,740</h1>
-										<h2 className='is_salmon'>+ 1,928</h2>
+										<h1>604,692</h1>
+										<h2 className='is_salmon'>+ 2,952</h2>
 									</div>
 								</div>
 							</div>
@@ -2389,8 +2401,8 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className='card-value pt-4'>
-										<h1>532,436</h1>
-										<h2 className='is_salmon'>+ 1,720</h2>
+										<h1>535,045</h1>
+										<h2 className='is_salmon'>+ 2,609</h2>
 									</div>
 								</div>
 							</div>
@@ -2402,8 +2414,8 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className='card-value pt-4'>
-										<h1>69,872</h1>
-										<h2 className='is_salmon'>+ 239</h2>
+										<h1>70,223</h1>
+										<h2 className='is_salmon'>+ 351</h2>
 									</div>
 								</div>
 							</div>
@@ -2415,8 +2427,8 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className='card-value pt-4'>
-										<h1>1,335</h1>
-										<h2 className='is_salmon'>+ 23</h2>
+										<h1>1,358</h1>
+										<h2 className='is_salmon'>+ 27</h2>
 									</div>
 								</div>
 							</div>
