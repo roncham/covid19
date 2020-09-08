@@ -2675,6 +2675,7 @@ class NevadaPage extends Component {
 									</div>
 								</div>
 							</div>
+						</div>
 
 						<div>
 							<p className='is-dark-text-light'>
