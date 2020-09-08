@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import { Bar, Line, defaults } from 'react-chartjs-2';
 
+// @ts-ignore
+import nvCounties from '../assets/images/nv_counties.jpg';
+
 import Layout from '../components/Layout';
 import Container from '../components/Container';
 
@@ -2654,6 +2657,24 @@ class NevadaPage extends Component {
 								</div>
 							</div>
 						</div>
+
+						<div className='row'>
+							<div className='col-md-12 is-light-text mb-4'>
+								<div className='card is-card-dark'>
+									<div className='card-heading'>
+										<div className='is-dark-text-light letter-spacing text-small'>
+											Nevada Counties
+										</div>
+									</div>
+									<div className='card-value pt-4'>
+										<img
+											src={nvCounties}
+											className='img-fluid'
+											alt='Covid-19 in NV Counties'
+										/>
+									</div>
+								</div>
+							</div>
 
 						<div>
 							<p className='is-dark-text-light'>
