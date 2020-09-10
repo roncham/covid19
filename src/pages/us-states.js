@@ -15,14 +15,6 @@ const USStatesPage = () => {
 				<h2 className='is-dark-text-light'>US States</h2>
 
 				<div className='col-xs-12 is-light-text mb-4'>
-					<iframe
-						className='usaiframe'
-						src='https://static.usafacts.org/public/2020/coronavirus-timeline/county-embed.html'
-						width='100%'
-					></iframe>
-				</div>
-
-				<div className='col-xs-12 is-light-text mb-4'>
 					<div>
 						<table className='table table-dark table-striped'>
 							<thead>
