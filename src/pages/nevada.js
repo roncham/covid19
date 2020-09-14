@@ -1989,7 +1989,7 @@ class NevadaPage extends Component {
 						10.2,
 						10.2,
 						10.2,
-						10.2
+						10.2,
 						null,
 					],
 				},
