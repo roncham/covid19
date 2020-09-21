@@ -217,6 +217,7 @@ class ClarkPage extends Component {
 				'9/17/20',
 				'9/18/20',
 				'9/19/20',
+				'9/20/20',
 			],
 			datasets: [
 				{
@@ -423,6 +424,7 @@ class ClarkPage extends Component {
 						63603,
 						63877,
 						64160,
+						64288,
 					],
 				},
 			],
@@ -630,6 +632,7 @@ class ClarkPage extends Component {
 				'9/17/20',
 				'9/18/20',
 				'9/19/20',
+				'9/20/20',
 			],
 			datasets: [
 				{
@@ -836,6 +839,7 @@ class ClarkPage extends Component {
 						302,
 						274,
 						283,
+						128,
 					],
 				},
 			],
@@ -1023,6 +1027,7 @@ class ClarkPage extends Component {
 				'9/17/20',
 				'9/18/20',
 				'9/19/20',
+				'9/20/20',
 			],
 			datasets: [
 				{
@@ -1209,6 +1214,7 @@ class ClarkPage extends Component {
 						5860,
 						5912,
 						5921,
+						5934,
 					],
 				},
 			],
@@ -1395,6 +1401,7 @@ class ClarkPage extends Component {
 				'9/17/20',
 				'9/18/20',
 				'9/19/20',
+				'9/20/20',
 			],
 			datasets: [
 				{
@@ -1581,6 +1588,7 @@ class ClarkPage extends Component {
 						54,
 						52,
 						9,
+						13,
 					],
 				},
 			],
@@ -1788,6 +1796,7 @@ class ClarkPage extends Component {
 				'9/17/20',
 				'9/18/20',
 				'9/19/20',
+				'9/20/20',
 			],
 			datasets: [
 				{
@@ -1993,6 +2002,7 @@ class ClarkPage extends Component {
 						1325,
 						1327,
 						1329,
+						1328,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -2189,6 +2199,7 @@ class ClarkPage extends Component {
 				'9/17/20',
 				'9/18/20',
 				'9/19/20',
+				'9/20/20',
 			],
 			datasets: [
 				{
@@ -2383,6 +2394,7 @@ class ClarkPage extends Component {
 						16,
 						2,
 						2,
+						-1,
 					],
 				},
 			],
@@ -2590,6 +2602,7 @@ class ClarkPage extends Component {
 				'9/17/20',
 				'9/18/20',
 				'9/19/20',
+				'9/20/20',
 			],
 			datasets: [
 				{
@@ -2795,6 +2808,7 @@ class ClarkPage extends Component {
 						7.3,
 						7.3,
 						7.2,
+						7.2,
 						null,
 						null,
 						null,
@@ -2873,6 +2887,7 @@ class ClarkPage extends Component {
 						null,
 						null,
 						null,
+						6.9,
 						6.9,
 						6.9,
 						6.9,
@@ -3217,6 +3232,7 @@ class ClarkPage extends Component {
 						3.9,
 						3.9,
 						3.9,
+						3.9,
 					],
 				},
 			],
@@ -3227,7 +3243,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Age of Cases',
-					data: [1318, 4963, 8211, 30552, 12356, 6459],
+					data: [1328, 5005, 8282, 30728, 12428, 6499],
 					backgroundColor: [
 						'rgb(54, 162, 235)', //blue
 						'rgb(255, 99, 132)', //salmon
@@ -3245,7 +3261,7 @@ class ClarkPage extends Component {
 			datasets: [
 				{
 					label: 'Sex',
-					data: [32686, 30827, 364],
+					data: [32901, 31026, 361],
 					backgroundColor: [
 						'rgb(255, 99, 132)',
 						'rgb(54, 162, 235)',
@@ -3287,8 +3303,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>64,160</h1>
-											<h2 className='is_salmon'>+ 283</h2>
+											<h1>64,288</h1>
+											<h2 className='is_salmon'>+ 128</h2>
 										</div>
 									</div>
 								</div>
@@ -3300,8 +3316,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>5,921</h1>
-											<h2 className='is_salmon'>+ 9</h2>
+											<h1>5,934</h1>
+											<h2 className='is_salmon'>+ 13</h2>
 										</div>
 									</div>
 								</div>
@@ -3313,7 +3329,7 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>92.8%</h1>
+											<h1>92.7%</h1>
 											<h2 className='is_salmon'>+ 0.0%</h2>
 										</div>
 									</div>
@@ -3326,8 +3342,8 @@ class ClarkPage extends Component {
 											</div>
 										</div>
 										<div className='card-value pt-4'>
-											<h1>1,329</h1>
-											<h2 className='is_salmon'>+ 2</h2>
+											<h1>1,328</h1>
+											<h2 className='is_salmon'>- 1</h2>
 										</div>
 									</div>
 								</div>
