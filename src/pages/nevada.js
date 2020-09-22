@@ -2740,7 +2740,7 @@ class NevadaPage extends Component {
 									</div>
 									<div className='card-value pt-4'>
 										<h1>668,264</h1>
-										<h2 className='is_salmon'>+ 2,202590756</h2>
+										<h2 className='is_salmon'>+ 2,202</h2>
 									</div>
 								</div>
 							</div>
