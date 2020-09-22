@@ -216,6 +216,7 @@ class NevadaPage extends Component {
 				'9/18/20',
 				'9/19/20',
 				'9/20/20',
+				'9/21/20',
 			],
 			datasets: [
 				{
@@ -422,6 +423,7 @@ class NevadaPage extends Component {
 						75419,
 						75804,
 						76036,
+						76298,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Line color
@@ -631,6 +633,7 @@ class NevadaPage extends Component {
 				'9/18/20',
 				'9/19/20',
 				'9/20/20',
+				'9/21/20',
 			],
 			datasets: [
 				{
@@ -838,6 +841,7 @@ class NevadaPage extends Component {
 						323,
 						385,
 						232,
+						262,
 					],
 					fill: false, // Don't fill area under the line
 					backgroundColor: '#933A16', // Bar color
@@ -1047,6 +1051,7 @@ class NevadaPage extends Component {
 				'9/18/20',
 				'9/19/20',
 				'9/20/20',
+				'9/21/20',
 			],
 			datasets: [
 				{
@@ -1236,23 +1241,24 @@ class NevadaPage extends Component {
 						1395,
 						1410,
 						1418,
-						1436,
-						1441,
-						1448,
-						1458,
-						1467,
-						1477,
-						1484,
-						1492,
+						1437,
+						1442,
+						1449,
+						1459,
+						1468,
+						1479,
+						1487,
 						1495,
-						1499,
-						1508,
+						1498,
+						1502,
 						1511,
-						1518,
-						1525,
-						1530,
-						1530,
+						1514,
+						1523,
 						1531,
+						1538,
+						1539,
+						1544,
+						1544,
 					],
 					backgroundColor: 'maroon',
 				},
@@ -1450,6 +1456,7 @@ class NevadaPage extends Component {
 				'9/18/20',
 				'9/19/20',
 				'9/20/20',
+				'9/21/20',
 			],
 			datasets: [
 				{
@@ -1628,23 +1635,24 @@ class NevadaPage extends Component {
 						6,
 						15,
 						8,
-						18,
+						19,
 						5,
 						7,
 						10,
 						9,
-						10,
-						7,
+						11,
+						8,
 						8,
 						3,
 						4,
 						9,
 						3,
+						9,
+						8,
 						7,
-						7,
+						1,
 						5,
 						0,
-						1,
 					],
 				},
 			],
@@ -1853,6 +1861,7 @@ class NevadaPage extends Component {
 				'9/18/20',
 				'9/19/20',
 				'9/20/20',
+				'9/21/20',
 			],
 			datasets: [
 				{
@@ -2061,6 +2070,7 @@ class NevadaPage extends Component {
 						10.0,
 						10.0,
 						10.0,
+						10.0,
 						null,
 					],
 				},
@@ -2266,10 +2276,11 @@ class NevadaPage extends Component {
 						6.8,
 						6.9,
 						6.8,
-						6.7,
+						6.6,
+						6.6,
+						6.9,
 						6.8,
 						7.1,
-						7.0,
 						null,
 					],
 				},
@@ -2347,6 +2358,7 @@ class NevadaPage extends Component {
 						null,
 						null,
 						null,
+						11.0,
 						11.0,
 						11.0,
 						11.0,
@@ -2691,6 +2703,7 @@ class NevadaPage extends Component {
 						6.1,
 						6.1,
 						6.1,
+						6.1,
 					],
 				},
 			],
@@ -2726,8 +2739,8 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className='card-value pt-4'>
-										<h1>666,062</h1>
-										<h2 className='is_salmon'>+ 1,583</h2>
+										<h1>668,264</h1>
+										<h2 className='is_salmon'>+ 2,202590756</h2>
 									</div>
 								</div>
 							</div>
@@ -2739,8 +2752,8 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className='card-value pt-4'>
-										<h1>590,756</h1>
-										<h2 className='is_salmon'>+ 1,376</h2>
+										<h1>592,776</h1>
+										<h2 className='is_salmon'>+ 2,020</h2>
 									</div>
 								</div>
 							</div>
@@ -2752,8 +2765,8 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className='card-value pt-4'>
-										<h1>76,036</h1>
-										<h2 className='is_salmon'>+ 232</h2>
+										<h1>76,298</h1>
+										<h2 className='is_salmon'>+ 262</h2>
 									</div>
 								</div>
 							</div>
@@ -2765,8 +2778,8 @@ class NevadaPage extends Component {
 										</div>
 									</div>
 									<div className='card-value pt-4'>
-										<h1>1,531</h1>
-										<h2 className='is_salmon'>+ 0</h2>
+										<h1>1,544</h1>
+										<h2 className='is_salmon'>+ 15</h2>
 									</div>
 								</div>
 							</div>
