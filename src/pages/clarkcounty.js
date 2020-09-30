@@ -3417,7 +3417,7 @@ class ClarkPage extends Component {
 								<em>Last Updated 9/29/2020</em>
 							</h5>
 							<p className='is-dark-text-light'>
-								<em>Visit the links below for currnt updates</em>
+								<em>Visit the links below for current updates</em>
 							</p>
 							<p>
 								<a
