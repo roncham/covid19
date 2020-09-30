@@ -2815,10 +2815,27 @@ class NevadaPage extends Component {
 						<div>
 							<h2 className='is-dark-text-light'>Nevada</h2>
 							<h5 className='is-dark-text-light'>
-								<em>NOTE: Nevada Data Is One Day Old</em>
+								<em>Last Updated 9/29/2020</em>
 							</h5>
 							<p className='is-dark-text-light'>
-								<em>Hover over colored bars/lines to see numbers.</em>
+								<em>Visit the links below for currnt updates</em>
+							</p>
+							<p>
+								<a
+									target='_blank'
+									rel='noopener noreferrer'
+									href='https://app.powerbigov.us/view?r=eyJrIjoiMjA2ZThiOWUtM2FlNS00MGY5LWFmYjUtNmQwNTQ3Nzg5N2I2IiwidCI6ImU0YTM0MGU2LWI4OWUtNGU2OC04ZWFhLTE1NDRkMjcwMzk4MCJ9'
+								>
+									Nevada Dept of Health
+								</a>
+								<br />
+								<a
+									target='_blank'
+									rel='noopener noreferrer'
+									href='https://www.southernnevadahealthdistrict.org/coronavirus'
+								>
+									Southern Nevada Health District
+								</a>
 							</p>
 						</div>
 						<div className='row'>
